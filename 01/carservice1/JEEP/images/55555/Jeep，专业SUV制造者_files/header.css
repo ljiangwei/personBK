@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: '汉仪中黑简';
+	src:url("/fonts/HYZHJ.ttf") format("truetype");
+}
+@font-face{
+	font-family: '汉仪大黑简';
+	src:url("/fonts/HYDHJ.ttf") format("truetype");
+}
+@font-face{
+	font-family: 'DIN';
+	src:url("/fonts/DIN-Medium.otf");
+}
+
+html, body { width:100%; height:100%; min-width:1280px;}
+
+.headHeight { width:100%; height:65px; }
+.header { width:100%;height:65px; z-index:12000; position:fixed; top:0; left:0; background:url("/images/header/nav01.png") repeat-x; 
+	font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+.headBox { width:1280px; height:65px; max-width:1920px;  margin:0 auto; position:relative; }
+.hdLogo { width:80px; height:47px; margin-left:35px; float:left;   }
+.hdNav { width:874px; height:65px; position:absolute; top:0; right:12px; color:#fff;
+    font-size:14px; /*sans-serif*/ /*font-weight:bold;*/ }
+.hdNav .hdNavTab { width:92px; height:65px; float:left; }
+.hdNav .hdNavTab .hdNavTxt { height:44px; padding-top:21px; display:block; text-align:center; color:#fff; }
+.hdNav .hdNavTab .hdNavTxt:hover { text-decoration:none; }
+.hdNav .on { background:#ffb301 !important; color:#000 !important; }
+.hdNav .on .hdNavTxt { color:#000 !important; }
+
+.hdNav .hdNav75 { background:url('/images/header/nav04.png') repeat-x; display:none; }
+.hdNav .hdNav75 a {  }
+.hdNav .hdNavIcon { margin-right:12px; position:relative; top:2px; display:inline; }
+.hdNav .deale { width:138px; height:65px; float:left; text-align:center; }
+.hdNav .deale a { height:45px; padding-top:20px; display:block; background:none; color: #dd9b01; }
+.hdNav .deale span { position:relative; }
+.hdNav .appointment { width:117px; height:65px; float:left; text-align:center; }
+.hdNav .appointment a { height:45px; padding-top:20px; display:block; background:none; color: #dd9b01; }
+.hdNav .appointment span { position:relative; }
+.hdNav .search a { width:40px; height:65px; background:url("/images/header/nav05.png") no-repeat; display:block; }
+.hdNav .search.on a { background:url("/images/header/nav05.png") no-repeat 0 -67px;  }
+
+#hdNavJeepLife { padding-top:21px; height:41px; }
+
+
+/*subNav*/
+.hdSubNav { width:211px; display:none; position:relative; }
+.hdSubNav .bg { width:211px; position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubNav ul { width:211px; position:absolute; top:22px; }
+.hdSubNav ul li { margin-bottom:6px;  }
+.hdSubNav ul li a { width:186px; height:27px !important; display:block; color:#dfdfdf; padding:6px 0 0 25px !important; 
+	text-align:left !important; /*font-weight:normal;*/ }
+.hdSubNav ul li a:hover { background:#ffb301; color:#000; text-decoration:none; }
+
+
+.hdSubNavCar { width:1023px; height:542px; position:relative; display:none; margin-left:-222px;  }
+.hdSubNavCar ul { width:1023px; height:542px; }
+.hdSubNavCar li { width:341px; float:left; }
+.hdSubNavCar .img { width:341px; height:149px; }
+.hdSubNavCar .txt { width:341px; position:relative; }
+.hdSubNavCar .booking { width:118px; height:30px; top:71%; left:28px; position:absolute; display:block; 
+	background:#f00; opacity:0; filter:alpha(opacity=0); }
+.hdSubNavCar .more { width:118px; height:30px; top:71%; left:200px; position:absolute; display:block;
+	background:#f00; opacity:0; filter:alpha(opacity=0); }
+
+.hdSubNav2 .bg { height:163px; }
+.hdSubNav3 .bg { height:358px; }
+.hdSubNav5 .bg { height:396px; }
+.hdSubNav5 .r  { font-size:10px; position:relative; top:-4px; }
+.hdSubNav8 .bg { height:124px; }
+.hdSubNav8 { left:-121px; }
+
+
+.hdSubNav4 { width:211px; height:196px; position:relative; left:0; /*font-weight:normal;*/ display:none; }
+.hdSubNav4 .bg { width:211px; height:196px; position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubNav4 dl { width:211px; height:196px; position:absolute; top:0; /*border-right:1px solid #474749;*/ float:left; }
+.hdSubNav4 dl dt { margin:28px 0 18px 26px; color:#fff; font-weight:bold; display:none; }
+.hdSubNav4 dl dd { margin-bottom:4px; color:#dfdfdf; }
+.hdSubNav4 dl dd a { width:185px; height:26px !important; display:block; padding:7px 0 0 26px !important; color: #dfdfdf; text-align:left !important; }
+.hdSubNav4 dl dd a:hover { background:#ffb301; color:#000; position:relative; }
+.hdSubNav4 .dl1 { left:0; top:22px;  }
+.hdSubNav4 .dl2 { left:174px; border-right:0; display:none; }
+/*.hdSubNav4 .dl3 { left:348px; border-right:0; }*/
+
+.hdSubNav75 { width:280px; height:214px;/*width:561px; height:241px;*/ position:relative; left:-96px;/*left:-224px;*/ /*font-weight:normal;*/ display:none; }
+.hdSubNav75 .bg { width:280px; height:214px;/*width:561px; height:241px;*/ position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubNav75 dl { width:280px; height:241px; position:absolute; top:0; border-right:1px solid #474749; float:left; }
+.hdSubNav75 dl dt { margin:28px 0 18px 26px; color:#fff; font-weight:bold; }
+.hdSubNav75 dl dd { margin-bottom:4px; color:#dfdfdf; }
+.hdSubNav75 dl dd a { width:254px; height:26px !important; display:block; padding:7px 0 0 26px !important; color: #dfdfdf; text-align:left !important; }
+.hdSubNav75 dl dd a:hover { background:#ffb301; color:#000; position:relative; }
+.hdSubNav75 .dl1 { left:0; border-right:0; }
+.hdSubNav75 .dl2 { left:281px; border-right:0; display:none; }
+
+
+.hdSubSearch { width:259px; height:80px; position:relative; left:-207px; display:none;  }
+.hdSubSearch div { position:absolute; }
+.hdSubSearch .bg { width:259px; height:80px; position:absolute; top:0; left:0; background:#000; opacity:0.8; filter:alpha(opacity=80); }
+.hdSubSearch .searchBtn { width:52px; top:22px; left:195px; position:absolute; display:block; padding-top:0 !important; background:none !important; }
+.hdSubSearch .searchIpBox { width:173px; top:27px; left:20px; }
+.hdSubSearch .searchBg { width:183px; top:22px; left:12px; }
+.hdSubSearch .searchIp { width:173px; height:24px; border:0;   }
+
+.hdCarMasker { width:100%; height:638px; position:fixed; left:0; top:65px; display:none;
+	background:#000; opacity:0.8; filter:alpha(opacity=80);  }
+
+
+
+/* rightNav */
+.rightNav { width:57px; height:334px; position:fixed; right:0; top:25%; z-index:100; 
+	font:18px "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+/*.rightNav ul { width:100%; height:100%;   }*/
+.rightNav a { width:57px; height:56px; background:url('/images/right_nav/nav01.png'); float:right; 
+	display:block; overflow:hidden; color:#cfcfcf; position:relative; }
+.rightNav a:last-child{ height:55px; }
+.rightNav .icon { margin:7px 0 0 14px; }
+.rightNav span { position:absolute; left:77px; top:15px; white-space:nowrap; }
+
+
+
+/* footer */
+.footer { width:100%; height:638px; background:#313131; 
+	font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He", sans-serif; }
+.ftMap { width:1032px; height:409px; margin:0 auto; padding-top:60px;  }
+.ftMap dl { width:135px; float:left; }
+.ftMap dl dt { font-size:14px; /*font-weight:bold;*/ color:#fff; margin-bottom:16px;  }
+.ftMap dl dd { font-size:12px; margin-bottom:16px; }
+.ftMap dl dd a { color:#a7a7a7; }
+.ftMap dl dd a:hover { text-decoration:none; color:#fdc33e; }
+
+.ftMap .ftDl { width:124px; float:left; }
+.ftMap .join { margin-top:40px;  }
+.ftMap .ftTel400 { font-size:22px; font-weight:bold; color:#b9b9b9;  }
+.ftMap .content { width:156px; float:right;  }
+.ftMap .content dt { margin-bottom:6px; }
+.ftMap .content img { display: inline; margin-right: 15px; position:relative; top:10px; }
+.ftMap .r  { font-size:10px; position:relative; top:-4px; }
+
+.ftCopyRight { width:100%; height:229px; background:#191919;     }
+.ftCopyRightBox { width:1032px; border-top:1px solid #3c3c3c; margin:0 auto; position:relative; top:-1px;z  }
+.ftCopyRightBox .link { font-size:12px; font-weight:bold; color:#fff; margin-top:24px;  }
+.ftCopyRightBox .link a { color:#fff; margin:0 3px;  }
+.ftCopyRightBox .disc { font-size:12px; color:#555555; margin-top:15px; line-height:22px;   }
+.ftCopyRightBox .logos { width:272px; height:21px; position:absolute; top:24px; right:0;  }
+.ftCopyRightBox .logos img { display:inline; }
+
+
+
+.wechatQr { width:100%; height:100%; position:fixed; left:0; top:0;  z-index:12001; display:none;  }
+.wechatQr .bg { width:100%; height:100%; position:absolute; background:#000; opacity:0.77; filter:alpha(opacity=77);  }
+.wechatQr .box { width:344px; height:450px; position:absolute; left:50%; top:40%; margin:-225px 0 0 -174px;
+  background:#000; color:#fff; }
+.wechatQr p { text-align: center; font-size:18px; padding-top:68px;  }
+.wechatQr span { color:#fdc33e; }
+.wechatQr .qr { position:absolute; left:62px; top:168px;  }
+.wechatQr .close { position:absolute; top:0; right:0; }
+
+
+.renegadeFloatQr { width:113px; position:fixed; top:189px; right:20px; z-index:1; }
+.renegadeFloatQr img {display: block; }
+.renegadeFloatQr .floatQrBt { width:106px; top:174px; left:4px; position:absolute; display:block; }
+
+
+

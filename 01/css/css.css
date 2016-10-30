@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.public-color {
+    color: #B1191A;
+}
+.wrapper{
+    width:100%;
+    margin:0 auto;
+    /*background-color: red;*/
+    background: url("../images/kv_02.jpg");
+}
+.slide {
+    height:500px;
+    position: relative;
+    margin-left: 80px;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev1.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:60px;
+    background-image: url(../images/next2.png);
+}
+
+
+
+
+
+
+
+

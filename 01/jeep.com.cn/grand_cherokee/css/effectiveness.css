@@ -1,0 +1,76 @@
+
+.kvbox{width: 100%;height: 550px;background: url(../effectiveness/images/pic1.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic1.jpg*/ top center no-repeat;}
+
+.videobox{width: 100%;height: 550px;background: url(../effectiveness/images/pic2.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic2.jpg*/ top center no-repeat;position: relative;}
+.videoPlayBt {width: 84px;height: 84px;position: absolute;top: 50%;left: 50%;margin-top: -42px;margin-left: -42px;}
+
+.qit{width: 100%;height: 540px;background: url(../effectiveness/images/pic3.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic3.jpg*/ top center no-repeat;text-align: center;position: relative;}
+.qit h4{font-size: 26px;color: #fff;padding-top: 20px;}
+.qit b{width: 59px;height: 2px;background: #ffb400;display: block;margin: 10px auto 0;}
+.qittxt{width: 100%;height: 140px;position: absolute;bottom: 0;left: 0;}
+.qittxt p{font-size: 15px;color: #ddd;padding-top:45px;line-height: 22px; }
+
+.fdjbox{width: 100%;height: 354px;background: #fff;position: relative;}
+.fdjmid{width: 1256px;height: 354px;background: url(../effectiveness/images/fdj_info.png)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/fdj_info.png*/ no-repeat;position: relative;margin: 0 auto;}
+.bt4 { width:130px; height:34px; top:279px; left:1045px; position:absolute; }
+.bt3 { width:130px; height:34px; top:279px; left:746px; position:absolute; }
+.bt2 { width:130px; height:34px; top:279px; left:426px; position:absolute; }
+.bt1 { width:130px; height:34px; top:279px; left:106px; position:absolute; }
+
+.fdjbox .pop { width:876px;/*1212px*/ height:236px; display:none; padding:40px 0 0 336px;  top:0px; left:44px; position:absolute; font-size:15px; }
+.fdjbox .pop p { width:782px;  margin-bottom:20px; }
+.fdjbox .pop .sp { font-weight:bold; }
+.fdjbox .close { width:50px; top:0px; right:0; position:absolute; }
+.fdjbox .pop3 { width:789px;/*1212px*/ height:206px; padding:70px 0 0 423px; }
+
+.mybox1{width: 100%;height: 550px;position: relative;overflow: hidden;}
+.mybox1 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute; background: url(../effectiveness/images/pic4.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic4.jpg*/ top center no-repeat; }
+.mybox1 .right span{width: 73px;height: 98px;position: absolute;bottom: 20px;left: 20px;}
+.mybox1 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox1 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 25%;right: 40%;margin-right: -20%;}
+.mybox1 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 18px;}
+.mybox1 .left .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox1 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox2{width: 100%;height: 550px;position: relative;}
+.mybox2 .left { width:63.59%; height:100%; top:0%; left:0%; position:absolute;background: url(../effectiveness/images/pic5.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic5.jpg*/ top center no-repeat; }
+.mybox2 .left span{width: 73px;height: 98px;position: absolute;bottom: 20px;right: 20px;}
+.mybox2 .right { width:36.41%; height:100%; top:0%; left:63.59%; position:absolute; background: #e9e9e9;}
+.mybox2 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 25%;left: 40%;margin-left: -20%;}
+.mybox2 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 18px;}
+.mybox2 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox2 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox3{width: 100%;height: 550px;position: relative;overflow: hidden;}
+.mybox3 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute;background: url(../effectiveness/images/pic6.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic6.jpg*/ top center no-repeat; }
+.mybox3 .right span{width: 73px;height: 98px;position: absolute;bottom: 20px;left: 20px;}
+.mybox3 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox3 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 25%;right: 40%;margin-right: -20%;}
+.mybox3 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom:  18px;}
+.mybox3 .left .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox3 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox4 {width: 100%;height:550px;position: relative;}
+.mybox4 .left { width:63.59%; height:100%; top:0%; left:0%; position:absolute;background: url(../effectiveness/images/pic7.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/effectiveness/images/pic7.jpg*/ top center no-repeat; }
+.mybox4 .left span{width: 73px;height: 98px;position: absolute;bottom: 20px;right: 20px;}
+.mybox4 .right { width:36.41%; height:100%; top:0%; left:63.59%; position:absolute; background: #e9e9e9;}
+
+.mybox4 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 25%;left: 40%;margin-left: -20%;}
+.mybox4 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 18px;}
+.mybox4 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox4 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+.mybox4 .newleft{width:63.59%; height:100%; top:0%; left:0%; position:absolute;}
+.mybox4 .gd { width:527px; top:120px; left:63.55%; position:absolute; z-index:1;  }
+
+.videoBox { width:100%; height:100%; display:none; background:#000; }
+
+
+
+
+
+
+
+
+
+
+

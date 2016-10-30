@@ -1,0 +1,94 @@
+
+.kvbox{width: 100%;height: 548px;background: url(../safety/images/kv.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/kv.jpg*/ top center no-repeat;}
+
+.ches{width: 100%;height: 451px;background: url(../safety/images/safe1.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe1.jpg*/ top center no-repeat;}
+.ches .midbox{width: 1280px;height: 100%;position: relative;margin: 0 auto;text-align: left;}
+.ches .midbox h3{font-size: 24px;color: #343434;padding-top: 154px;}
+.ches .midbox b{width: 71px;height: 2px;background: #ffb400;margin-top:25px;margin-bottom:25px;display: block;}
+.ches .midbox p{font-size: 15px;color: #333;line-height: 22px;}
+
+.tit{width: 100%;height: 154px;background: #cacaca;text-align: center;}
+.tit h4{font-size: 26px;color: #000;padding-top: 30px;}
+.tit b{width: 59px;height: 2px;background: #ffb400;display: block;margin:5px auto 10px;}
+.tit p{font-size: 15px;color: #070707;line-height: 24px;}
+
+.mybox1{width: 100%;height: 549px;position: relative;overflow: hidden;}
+.mybox1 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute;background: url(../safety/images/safe2.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe2.jpg*/ top center no-repeat; }
+.mybox1 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox1 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 25%;right: 40%;margin-right: -20%;}
+.mybox1 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox1 .left .txtcon a{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox1 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.yjp{width: 100%;height: 551px;position: relative;}
+.yjp .yjppic{width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.yjp .yjp1{ background: url(../safety/images/safe3_1.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe3_1.jpg*/ top center no-repeat;}
+.yjp .yjp2{ background: url(../safety/images/safe3_2.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe3_2.jpg*/ top center no-repeat;}
+.yjp .yjp3{ background: url(../safety/images/safe3_3.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe3_3.jpg*/ top center no-repeat;}
+.yjp .yjp4{ background: url(../safety/images/safe3_4.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe3_4.jpg*/ top center no-repeat;}
+.yjp .yjp5{ background: url(../safety/images/safe3_5.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe3_5.jpg*/ top center no-repeat;}
+.yjp .midbox{width: 280px;height: 100%;position: relative;margin: 0 auto;text-align: left;padding-left: 1000px;}
+.yjp .midbox h3{font-size: 24px;color: #343434;padding-top: 150px;}
+.yjp .midbox b{width: 71px;height: 2px;background: #ffb400;margin-top:25px;margin-bottom:25px;display: block;}
+.yjp .midbox a{font-size: 15px;color: #333;line-height: 22px;display: block;}
+.yjp .midbox a.on{color: #ffb400;}
+
+.mybox2{width: 100%;height: 550px;position: relative;}
+.mybox2 .left { width:55.94%; height:100%; top:0%; left:0%; position:absolute;background: url(../safety/images/safe4.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe4.jpg*/ top center no-repeat; }
+.mybox2 .right { width:44.06%; height:100%; top:0%; left:55.94%; position:absolute; background: #e9e9e9;}
+.mybox2 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 25%;left: 40%;margin-left: -20%;}
+.mybox2 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox2 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox2 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox3{width: 100%;height: 550px;position: relative;overflow: hidden;}
+.mybox3 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute;background: url(../safety/images/safe5.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe5.jpg*/ top center no-repeat; }
+.mybox3 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox3 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 35%;right: 40%;margin-right: -20%;}
+.mybox3 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox3 .left .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox3 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox4{width: 100%;height: 550px;position: relative;}
+.mybox4 .left { width:55.94%; height:100%; top:0%; left:0%; position:absolute;background: url(../safety/images/safe6.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe6.jpg*/ top center no-repeat; }
+.mybox4 .left a{width: 84px;height: 84px;position: absolute;top: 50%;left: 50%;margin-top: -42px;margin-left: -42px;}
+.mybox4 .right { width:44.06%; height:100%; top:0%; left:55.94%; position:absolute; background: #e9e9e9;}
+.mybox4 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 30%;left: 40%;margin-left: -20%;}
+.mybox4 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox4 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox4 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox5{width: 100%;height: 550px;position: relative;overflow: hidden;}
+.mybox5 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute;background: url(../safety/images/safe7.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe7.jpg*/ top center no-repeat; }
+.mybox5 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox5 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 35%;right: 40%;margin-right: -20%;}
+.mybox5 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox5 .left .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox5 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox6{width: 100%;height: 550px;position: relative;}
+.mybox6 .left { width:55.94%; height:100%; top:0%; left:0%; position:absolute;background: url(../safety/images/safe8.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe8.jpg*/ top center no-repeat; }
+.mybox6 .right { width:44.06%; height:100%; top:0%; left:55.94%; position:absolute; background: #e9e9e9;}
+.mybox6 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 35%;left: 40%;margin-left: -20%;}
+.mybox6 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox6 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox6 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox7{width: 100%;height: 550px;position: relative;overflow: hidden;}
+.mybox7 .right { width:63.8%; height:100%; top:0%; left:36.2%; position:absolute;background: url(../safety/images/safe9.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/safety/images/safe9.jpg*/ top center no-repeat; }
+.mybox7 .left { width:36.25%; height:100%; top:0%; left:0%; position:absolute; background: #e9e9e9;}
+.mybox7 .left .txtcon{width: 300px;text-align: left;position: absolute;top: 35%;right: 40%;margin-right: -20%;}
+.mybox7 .left .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox7 .left .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox7 .left .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.mybox8{width: 100%;height: 550px;position: relative;}
+.mybox8 .left { width:55.94%; height:100%; top:0%; left:0%; position:absolute;background: url(../safety/images/safe10.jpg) top center no-repeat; }
+.mybox8 .right { width:44.06%; height:100%; top:0%; left:55.94%; position:absolute; background: #e9e9e9;}
+.mybox8 .right .txtcon{width: 270px;text-align: left;position: absolute;top: 35%;left: 40%;margin-left: -20%;}
+.mybox8 .right .txtcon h4{width: 100%; font-size: 24px;color: #171717;margin-bottom: 10px;}
+.mybox8 .right .txtcon p{text-align: justify; font-size: 15px;color: #2f2f2f;line-height: 24px;}
+.mybox8 .right .txtcon b{width: 71px;height: 2px;background: #ffb400;display: block;margin-bottom: 15px;}
+
+.videoBox { width:100%; height:100%; display:none; background:#000; }
+

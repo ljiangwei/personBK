@@ -1,0 +1,284 @@
+@charset "UTF-8";
+.head{
+    background-color: black;
+    height: 60px;
+    border-bottom: 2px solid #ff9700;
+    width: 100%;
+    z-index: 12000;
+    /*position: fixed;*/
+}
+.headcenter{
+    /*width: 1150px;*/
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    /*position: fixed;*/
+}
+.headcenter #ul01{
+    float: right;
+}
+.logo{
+    width: 100px;
+    float: left;
+}
+.logo a{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    margin-top: -7px;
+}
+.headcenter .lis{
+    float: left;
+}
+.headcenter .lis .aa{
+    height: 60px;
+    display: inline-block;
+    padding: 0 15px;
+    color: white;
+}
+.headcenter .lisa .aa:hover{
+    background-color: orange;
+    color: black;
+}
+.li1{
+    width: 62px;
+    height: 60px;
+    margin-left: 220px;
+    /*overflow: hidden;*/
+}
+.li1 ul{
+    display: none;
+}
+.li2{
+    /*overflow: hidden;*/
+    height: 60px;
+    width: 96px;
+}
+
+.li2 ul{
+    background-color: black;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: none;
+}
+.lis a{
+    color: white;
+}
+.li2 ul li{
+    height: 35px;
+    line-height: 35px;
+    /*margin-left: -40px;*/
+    text-indent: 20px;
+}
+.li2 ul li:hover{
+    background-color: orange;
+}
+.li2 ul li:hover a{
+    color: black;
+}
+.li1 .a1 a{
+    display: inline-block;
+}
+.li1 .a1 img{
+    width: 340px;
+}
+.li1 ul{
+    width: 1050px;
+    height: 300px;
+    margin-left: -333px;
+}
+
+.li1 ul li{
+    width: 340px;
+    float: left;
+}
+.li1 .a1{
+    height: 150px;
+}
+.li1 .a2{
+    height: 123px;
+}
+.li3{
+    width: 110px;
+    height: 60px;
+    /*overflow: hidden;*/
+}
+.li3 ul{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 180px;
+    display: none;
+}
+.li3 ul li{
+    height: 40px;
+    line-height: 40px;
+    /*margin-left: -40px;*/
+    padding-left: 30px;
+}
+.li3 ul li:hover{
+    background-color: orange;
+}
+.li3 ul li:hover a{
+    color: black;
+}
+.li4{
+    width: 94px;
+    height: 60px;
+    /*overflow: hidden;*/
+}
+.li4 ul{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 180px;
+    display: none;
+}
+.li4 ul li{
+    height: 35px;
+    line-height: 35px;
+    /*margin-left: -40px;*/
+    padding-left: 30px;
+}
+.li4 ul li:hover{
+    background-color: orange;
+}
+.li4 ul li:hover a{
+    color: black;
+}
+.li5{
+    height: 60px;
+    width: 94px;
+    /*overflow: hidden;*/
+}
+.li5 ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    background-color: black;
+    margin-left: -113px;
+    display: none;
+}
+.li5 ul li{
+    height: 35px;
+    line-height: 35px;
+    /*margin-left: -40px;*/
+    padding-left: 20px;
+}
+.li5 ul li:hover{
+    background-color: orange;
+}
+.li5 ul li:hover a{
+    color: black;
+}
+.li6{
+    height: 60px;
+    width: 30px;
+    /*overflow: hidden;*/
+}
+.li6 ul{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: -150px;
+    width: 180px;
+    background-color: black;
+    margin-top: -24px;
+    height: 45px;
+    display: none;
+    line-height: 60px;
+}
+.li6 ul .shuru{
+    /*margin-left: -20px;*/
+}
+.li6 ul .shuru input{
+    width: 120px;
+    height: 20px;
+    border: 2px solid #ff9700;
+    padding-left: 10px;
+}
+.li6 ul li{
+    float: left;
+}
+.li6 ul .sousuo input{
+    height: 24px;
+    background-color: orange;
+    border-style:  none;
+}
+.head .li7 .aa{
+    color: orange;
+    margin-left: -12px;
+}
+.head .li7 i{
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.public{
+    display: block;
+}
+
+
+
+#box{
+    width: 1366px;
+    height: 660px;
+    /*height: 1000px;*/
+    /*background-color:#ff9700;*/
+    position: relative;
+    /*padding: 10px;*/
+}
+.screen{
+    width: 1366px;
+    height: 660px;
+    overflow: hidden;
+    position: relative;
+}
+.screen ul{
+    /*height: 660px;*/
+    left: 0;
+    top: 0px;
+    position: absolute;
+    width: 8000px;
+}
+.screen ul li{
+    width: 1366px;
+    height: 660px;
+    overflow: hidden;
+    float: left;
+}
+#box ol {
+    position: absolute;
+    right: 570px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#box ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#box ol li.current{
+    background:orange;
+}
+#arr1{
+    display: none;
+    cursor: pointer;
+}
+#left1{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+}
+#right1{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}

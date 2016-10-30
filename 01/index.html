@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeep项目实战</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/rightnav.css">
+
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/head.js"></script>
+
+    <script src="js/login.js"></script>
+
+
+
+    <script>
+        $(function () {
+            $("#main ul li").mouseenter(function () {
+                $(this).css("opacity",1).siblings().css("opacity",.3);
+            });
+            $("#main ul").mouseleave(function () {
+                $("#main ul li").css("opacity",1);
+            })
+            //显示箭头
+            $(".wrap").mouseenter(function () {
+                $("#arr3").show();
+
+                clearInterval(timer);
+            })
+
+            //隐藏箭头
+            $(".wrap").mouseleave(function () {
+                $("#arr3").hide();
+
+                timer = setInterval(function () {
+                    $("#right3").click();  //触发点击事件
+                }, 1500)
+
+            })
+            var $clonePic = $(".div1").clone(true);
+            var $clonePic4 = $(".div1").clone(true);
+            var $clonePic1 = $(".div2").clone(true);
+            var $clonePic2 = $(".div3").clone(true);
+            var $clonePic3 = $(".div4").clone(true);
+            $("#imgs0").append($clonePic);
+            $("#imgs0").append($clonePic1);
+            $("#imgs0").append($clonePic2);
+            $("#imgs0").append($clonePic3);
+            $("#imgs0").append($clonePic4);
+            var pic = 0;
+            $("#right3").click(function () {
+
+                if (pic == $("#imgs0>div").length - 5) {
+                    pic = 0;
+                    $("#imgs0").css("left", "0px");
+                }
+                pic++;
+                var target = -pic * $(".div1 .img62").width();
+                $("#imgs0").stop().animate({
+                    "left": target + "px"
+                }, 1000)
+            })
+
+            $("#left3").click(function () {
+                var imgWidth = $(".div1 .img62").width();
+                if (pic == 0) {
+                    pic = $("#imgs0>div").length - 5;
+                    $("#imgs0").css("left", -pic * imgWidth);
+                }
+                pic--;
+
+                var target = -pic * imgWidth;
+                console.log(target);
+                $("#imgs0").animate({
+                    "left": target + "px"
+                }, 1000)
+
+            })
+
+            //自动播放
+            timer = setInterval(function () {
+                $("#right3").click();  //触发点击事件
+            }, 1500)
+
+
+            $("#main ul li").mouseenter(function () {
+                $(this).css("opacity", 1).siblings().css("opacity", .3);
+            });
+            $("#main ul").mouseleave(function () {
+                $("#main ul li").css("opacity", 1);
+            })
+
+            //鼠标经过，显示图片
+            $("#rightNav>ul>li").mouseenter(function () {
+                $(this).stop().animate({"left": "0px"}, 100);
+            });
+            $("#rightNav>ul>li").mouseleave(function () {
+                $(this).stop().animate({"left": "-150px"}, 100);
+            })
+            $("#imgs0>div").mouseenter(function () {
+                $(this).find("div").children("img:eq(0)").css("display", "none").
+                siblings().css("display", "block");
+            })
+            $("#imgs0>div").mouseleave(function () {
+                $(this).find("div").children("img:eq(0)").css("display", "block").
+                siblings().css("display", "none");
+            })
+        })
+    </script>
+
+
+
+</head>
+<body>
+<!--头部开始-->
+<div class="head">
+    <div class="headcenter w clearfix">
+        <!--左边logo-->
+        <div class="logo"><a href=""><img src="images/nav_logo.png" alt="" height=60px width=100px></a></div>
+        <!--右边列表-->
+        <ul id="ul01">
+            <li id="li1" class="li1 lisa lis"><a href="" class="aa">车型</a>
+                <ul>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav10.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav11.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav12.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav13.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav14.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav13.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav16.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav17.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav18.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav19.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href="新建文件夹1/index.html" target="_blank"><img src="images/nav20.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav21.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="lis lisa li2">
+                <a href="" class="aa">金融服务</a>
+                <ul>
+                    <li><a href="">自由享金融</a></li>
+                    <li><a href="">自由享置换</a></li>
+                    <li><a href="">金融计算器</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa"><a href="" class="aa">Jeep商城</a></li>
+            <li class="lis lisa li3">
+                <a href="" class="aa">Jeep Life</a>
+                <ul>
+                    <li><a href="">探享俱乐部</a></li>
+                    <li><a href="">平拍介绍</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">最新活动</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa li4">
+                <a href="carservice1/carservice.html" target="_blank" class="aa">车主服务</a>
+                <ul>
+                    <li><a href="">全境界服务简介</a></li>
+                    <li><a href="">24小时全路况救援</a></li>
+                    <li><a href="">出行管家服务</a></li>
+                    <li><a href="">星辰守护服务</a></li>
+                    <li><a href="">“汽车三包”政策</a></li>
+                    <li><a href="">Mopar®进口原装部件</a></li>
+                    <li><a href="">安全驾驶培训</a></li>
+                    <li><a href="">车架号查询</a></li>
+                    <li><a href="">车主认证</a></li>
+                </ul>
+            </li>
+            <li class="lis li7">
+                <i><img src="images/nav02.png" alt=""></i>
+                <a href="" class="aa">查找经销商</a></li>
+            <li class="lis li7">
+                <i><img src="images/nav03.png" alt=""></i>
+                <a href="#" class="aa" id="login1">预约试驾</a>
+            </li>=
+            <li class="lis lisa li5">
+                <a href="" class="aa">加入我们</a>
+                <ul>
+                    <li><a href="">招聘信息</a></li>
+                    <li><a href="">申请经销商</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa li6">
+                <a href="" class="aa"> </a>
+                <ul>
+                    <li class="shuru"><input type="text" placeholder="请输入你的内容..."></li>
+                    <li class="sousuo"><input type="button" value="搜索"></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div id="mask"></div>
+<div id="s_box">
+
+    <!--顶部-->
+    <div class="top-login ">
+        <a href="#" class="sao">扫码登录</a>
+        <i></i>
+        <a href="#" class="zhang">帐号登录</a>
+    </div>
+    <!--中间-->
+    <div class="inport">
+        <i class="shuru"></i>
+        <input type="text" value="邮箱/用户名/已验证手机" id="shbtn"/>
+
+    </div>
+    <!--密码框部分-->
+    <div class="inport">
+        <i class="mima"></i>
+        <input type="text" value="密码" id="mmbtn"/>
+
+    </div>
+
+
+    <!--单选框部分-->
+    <div class="check">
+        <input type="checkbox" checked="checked"/> 自动登录
+        <a href="#">忘记密码？</a>
+    </div>
+
+    <!--登录按钮部分-->
+    <div>
+        <a href="#" class="but">登&nbsp; 录</a>
+    </div>
+
+
+    <span id="close_box">×</span>
+
+</div>
+<div id="box">
+    <div class="screen">
+        <ul>
+            <li><a href="jeep.com.cn/grand_cherokee/index.html" target="_blank"><img src="images/kv_01.jpg" width="1368px" height="660px" alt=""></a></li>
+            <li><a href="jeep.com.cn/grand_cherokee/index.html" target="_blank"><img src="images/kv_02.jpg" width="1368px" height="660px" alt=""></a></li>
+            <li><a href="jeep.com.cn/grand_cherokee/index.html" target="_blank"><img src="images/kv_06.jpg" width="1368px" height="660px" alt=""></a></li>
+            <li><a href="jeep.com.cn/grand_cherokee/index.html" target="_blank"><img src="images/kv_08.jpg" width="1368px" height="660px" alt=""></a></li>
+        </ul>
+        <ol>
+
+        </ol>
+    </div>
+    <div id="arr">
+        <span id="left"><img src="images/cam_001.png" alt=""></span>
+        <span id="right"><img src="images/cam_002.png" alt=""></span>
+    </div>
+</div>
+<!--头部结束-->
+<!--<audio src="1.mp3" controls="controls" hidden="true" autostart="no" autoplay="autoplay"></audio>-->
+<div id="film" style="width: 100%;height: 500px;background:url(images/kv_02.jpg);">
+    <video src="media/jeep.mp4" controls="controls" width="600" height="450" style="margin-left: 360px;"></video>
+</div>
+<!--轮播图-->
+<div class="wrap clearfix">
+    <div id="ad">
+        <ul id="imgs0">
+            <div class="div1 public">
+                <a>
+                    <img class="img62" src="images/news_62.jpg" style="width: 338px;">
+
+                    <div class="imgdes">
+                        <img class="img63" src="images/news63.jpg" style="width: 338px;height: 53px;">
+                        <img class="img64" src="images/news64.jpg" style="width: 338px;height: 58px;display: none;">
+                    </div>
+                </a>
+            </div>
+            <div class="div2 public">
+                <a>
+                    <img class="img62" src="images/news_20.jpg" style="width: 338px;">
+
+                    <div class="imgdes">
+                        <img class="img63" src="images/news_21.png" style="width: 338px;height: 53px;">
+                        <img class="img64" src="images/news_22.png" style="width: 338px;height: 58px;display: none;">
+                    </div>
+                </a>
+            </div>
+            <div class="div3 public">
+                <a>
+                    <img class="img62" src="images/news_01.jpg" style="width: 338px;">
+
+                    <div class="imgdes">
+                        <img class="img63" src="images/news_06.png" style="width: 338px;height: 53px;">
+                        <img class="img64" src="images/news_11.png" style="width: 338px;height: 58px;display: none;">
+                    </div>
+                </a>
+            </div>
+            <div class="div4 public">
+                <a>
+                    <img class="img62" src="images/news_04.jpg" style="width: 338px;">
+
+                    <div class="imgdes">
+                        <img class="img63" src="images/news_09.png" style="width: 338px;height: 53px;">
+                        <img class="img64" src="images/news_14.png" style="width: 338px;height: 58px;display: none;">
+                    </div>
+                </a>
+            </div>
+            <div class="div5 public">
+                <a>
+                    <img class="img62" src="images/nav18.jpg" style="width: 338px;height: 186px;">
+
+                    <div class="imgdes">
+                        <img class="img63" src="images/news63.jpg" style="width: 338px;height: 53px;">
+                        <img class="img64" src="images/news64.jpg" style="width: 338px;height: 58px;display: none;">
+                    </div>
+                </a>
+            </div>
+        </ul>
+    </div>
+    <!--箭头-->
+    <div id="arr3">
+        <span id="left3"> &lt; </span><span id="right3">&gt;</span>
+    </div>
+</div>
+<!--2016极致旅行开始-->
+<div class="main" id="main">
+    <div class="main-logo visited"><img src="images/cam_coolrun_01.png"></div>
+    <div class="main-logo change"><img src="images/cam_coolrun_02.png"></div>
+    <div class="activity clearfix">
+        <ul>
+            <li><a href="#"><img src="images/cam_coolrun_n1.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/cam_coolrun_n2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/cam_coolrun_n3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="images/huantupian04.jpg" style="width: 341px;height: 250px;"></a></li>
+            <li><a href="#"><img src="images/huantupian02.jpg" style="width: 341px;height: 250px;"></a></li>
+            <li><a href="#"><img src="images/huantupian03.jpg" style="width: 341px;height: 250px;"></a></li>
+        </ul>
+    </div>
+</div>
+<!--2016极致旅行结束-->
+<!--旋转木马开始-->
+<div class="wrapper" id="wrapper">
+    <div class="slide">
+        <ul>
+            <li><a href="#"><img src="images/1.jpg"></a></li>
+            <li><a href="#"><img src="images/2.jpg"></a></li>
+            <li><a href="#"><img src="images/3.jpg"></a></li>
+            <li><a href="#"><img src="images/4.jpg"></a></li>
+            <li><a href="#"><img src="images/5.jpg"></a></li>
+            <li><a href="#"><img src="images/6.jpg"></a></li>
+            <li><a href="#"><img src="images/7.jpg"></a></li>
+            <!--<li style="width: 400px; top: 20px; left: 50px; opacity: 0.2; z-index: 2;"><a href="#"><img src="images/slidepic1.jpg" alt=""></a></li>-->
+            <!--<li style="width: 600px; top: 70px; left: 0px; opacity: 0.8; z-index: 3;"><a href="#"><img src="images/slidepic2.jpg" alt=""></a></li>-->
+            <!--<li style="width: 800px; top: 100px; left: 200px; opacity: 1; z-index: 4;"><a href="#"><img src="images/slidepic3.jpg" alt=""></a></li>-->
+            <!--<li style="width: 600px; top: 70px; left: 600px; opacity: 0.8; z-index: 3;"><a href="#"><img src="images/slidepic4.jpg" alt=""></a></li>-->
+            <!--<li style="width: 400px; top: 20px; left: 750px; opacity: 0.2; z-index: 2;"><a href="#"><img src="images/slidepic5.jpg" alt=""></a></li>-->
+        </ul>
+        <div class="arrow" id="arrow">
+            <a href="javascript:;" class="prev" id="left1"></a>
+            <a href="javascript:;" class="next" id="right1"></a>
+        </div>
+    </div>
+</div>
+<!--旋转木马结束-->
+<div class="user clearfix">
+    <ul class="userBox">
+        <li>
+            <a href="#"><img src="images/user01.png"></a>
+            <img src="images/user05.png">
+        </li>
+        <li>
+            <a href="#"><img src="images/user02.png"></a>
+            <img src="images/user05.png">
+        </li>
+        <li>
+            <a href="#"><img src="images/user03.png"></a>
+            <img src="images/user05.png">
+        </li>
+        <li>
+            <a href="#"><img src="images/user04.png"></a>
+        </li>
+    </ul>
+</div>
+<div class="footer">
+    <div class="ftMap">
+        <dl>
+            <dt>车型</dt>
+            <dd><a href="#">进口全新大切诺基</a></dd>
+            <dd><a href="#">进口牧马人</a></dd>
+            <dd><a href="#">全新自由光</a></dd>
+            <dd><a href="#">进口自由光</a></dd>
+            <dd><a href="#">全新自由侠</a></dd>
+        </dl>
+        <dl>
+            <dt>金融服务</dt>
+            <dd><a href="#">自由享金融</a></dd>
+            <dd><a href="#">自由享置换</a></dd>
+            <dd><a href="#">金融计算器</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep商城</dt>
+            <dd><a href="#">订车宝</a></dd>
+            <dd><a href="#">预约试驾</a></dd>
+            <dd><a href="#">查询经销商</a></dd>
+            <dd><a href="#">即刻接通经销商</a></dd>
+            <dd><a href="#">车型对比</a></dd>
+            <dd><a href="#">定制我的Jeep</a></dd>
+            <dd><a href="#">下载电子产品手册</a></dd>
+            <dd><a id="ftQaOnline" href="#">在线咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep Life</dt>
+            <dd><a href="#">探享俱乐部</a></dd>
+            <dd><a href="#">品牌介绍</a></dd>
+            <dd><a href="#">新闻资讯</a></dd>
+            <dd><a href="#">最新活动</a></dd>
+        </dl>
+        <dl>
+            <dt class="join" style="margin-top: 0;">加入我们</dt>
+            <dd><a href="#">招聘信息</a></dd>
+            <dd><a href="#">申请经销商</a></dd>
+        </dl>
+        <dl>
+            <dt>车主服务</dt>
+            <dd><a href="#">全境界服务简介</a></dd>
+            <dd><a href="#">24小时全路况救援</a></dd>
+            <dd><a href="#">出行管家服务</a></dd>
+            <dd><a href="#">辰星守候服务</a></dd>
+            <dd><a href="#">“汽车三包”政策</a></dd>
+            <dd><a href="#">Mopar<span class="r">®</span>原装进口配件</a></dd>
+            <dd><a href="#">安全驾驶培训</a></dd>
+            <dd><a href="#">车架号查询</a></dd>
+            <dd><a href="#">车主认证</a></dd>
+        </dl>
+        <dl class="content">
+            <dt>专享热线</dt>
+            <dd class="tel400">400 6500 118</dd>
+            <dd><a href="#"><img src="images/footer01.png">微博</a></dd>
+            <dd><a href="#"><img src="images/footer02.png">微信</a></dd>
+        </dl>
+    </div>
+    <div class="last">
+        <div class="lastBox">
+            <p class="link">
+                <a href="#">Global Site</a> |
+                <a href="#">隐私条款</a> |
+                <a href="#">联系我们</a> |
+                <a href="#">加入我们</a> |
+                <a href="#">网站地图</a> |
+                <a href="#">手机版</a>
+            <p class="p1">网站中所有产品图片及文字说明均有可能变更。克莱斯勒[中国]汽车销售有限公司保留对所描述车型进行更改的权利，<br>
+                并且任何时候都无需承担因以产品改进为目的的设计和[或]市场营销等原因而必须提前通知的义务。<br>
+                沪ICP备09014236号-12
+            </p>
+
+            <div class="logos">
+                <a href="#"><img src="images/footer05.png"></a>
+                <a href="#"><img src="images/footer04.png"></a>
+                <a href="#"><img src="images/footer03.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rightNav">
+    <ul>
+        <li><span><img src="images/nav02(1).png" alt=""></span>
+
+            <p>金融政策</p></li>
+        <li><span><img src="images/nav03(1).png" alt=""></span>
+
+            <p>定制我的Jeep</p></li>
+        <li><span><img src="images/nav04.png" alt=""></span>
+
+            <P>车型对比</P></li>
+        <li><span><img src="images/nav05.png" alt=""></span>
+
+            <P>预约试驾</P></li>
+        <li><span><img src="images/nav06(1).png" alt=""></span>
+
+            <P>在线咨询</P></li>
+        <li><span><img src="images/nav07(1).png" alt=""></span>
+
+            <P>Jeep Life</P></li>
+    </ul>
+</div>
+    <script src="js/animate.js"></script>
+    <script src="js/my.js"></script>
+</body>
+</html>

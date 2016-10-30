@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#rightNav{
+    position: fixed;
+    left: 0;
+    top:200px;
+    z-index: 10;
+}
+#rightNav li{
+    height: 50px;
+    width: 200px;
+    position:relative;
+    left:-150px;
+    opacity: .7;
+}
+
+#rightNav li p{
+    height:50px;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+
+
+}
+#rightNav li span{
+    position: absolute;
+    right: 10px;
+    top:5px;
+}

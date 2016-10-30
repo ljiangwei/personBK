@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*头部部分*/
+.head{
+    height: 65px;
+    background-color: #000000;
+    border-bottom: 1px solid #FFB500;
+}
+
+/*左边logo*/
+.leftLogo{
+    /*height: 47px;*/
+    /*width: 80px;*/
+}
+.leftLogo span{
+    float: left;
+    display:inline-block;
+    height: 40px;
+    width: 82px;
+    background: url("../images/headnav.png") no-repeat -81px -11px;
+    margin-top: 13px;
+}
+
+/*右侧导航*/
+.rightNav ul{
+    float: right;
+    text-align: center;
+}
+.rightNav li{
+    height: 65px;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 65px;
+}
+.rightNav li a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.rightNav .li01 i{
+    width: 12px;
+    height: 17px;
+    display: inline-block;
+    background-image: url(../images/nav02.png);
+}
+.rightNav .li02 i{
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    background-image: url(../images/nav03.png);
+}
+.rightNav .li01 span{
+     color: #FFB500;
+ }
+.rightNav .li02 span{
+    color: #FFB500;
+}
+.rightNav ul .li03:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li04:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li05:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li06:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li07:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li08:hover{
+    background-color: #FFB500;
+}
+.rightNav ul .li09 a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/headnav.png) no-repeat -1234px -24px;
+}
+.rightNav ul .li09:hover{
+    background-color: #FFB500;
+}
+.rightNav li a:hover{
+    color: #000000;
+}

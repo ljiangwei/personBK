@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>车主服务</title>
+    <link rel="stylesheet" href="carserviceCSS/carservice.css">
+    <script src="carserviceJS/jquery-1.12.4.js"></script>
+    <script src="carserviceJS/head.js"></script>
+    <script src="carserviceJS/carservice.js"></script>
+    <link rel="stylesheet" href="carserviceCSS/head.css">
+    <link rel="stylesheet" href="carserviceCSS/base.css">
+</head>
+<body>
+<div class="head">
+    <div class="headcenter w clearfix">
+        <!--左边logo-->
+        <div class="logo"><a href=""><img src="images/nav_logo.png" alt="" height=60px width=100px></a></div>
+        <!--右边列表-->
+        <ul id="ul01">
+            <li id="li1" class="li1 lisa lis"><a href="" class="aa">车型</a>
+                <ul>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav10.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav11.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav12.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav13.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav14.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav13.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav16.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav17.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav18.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav19.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="a1"><a href=""><img src="images/nav20.jpg" alt=""></a></div>
+                        <div class="a2">
+                            <a href=""><img src="images/nav21.png" alt=""></a>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="lis lisa li2">
+                <a href="" class="aa">金融服务</a>
+                <ul>
+                    <li><a href="">自由享金融</a></li>
+                    <li><a href="">自由享置换</a></li>
+                    <li><a href="">金融计算器</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa"><a href="" class="aa">Jeep商城</a></li>
+            <li class="lis lisa li3">
+                <a href="" class="aa">Jeep Life</a>
+                <ul>
+                    <li><a href="">探享俱乐部</a></li>
+                    <li><a href="">平拍介绍</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">最新活动</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa li4">
+                <a href="" class="aa">车主服务</a>
+                <ul>
+                    <li><a href="">全境界服务简介</a></li>
+                    <li><a href="">24小时全路况救援</a></li>
+                    <li><a href="">出行管家服务</a></li>
+                    <li><a href="">星辰守护服务</a></li>
+                    <li><a href="">“汽车三包”政策</a></li>
+                    <li><a href="">Mopar®进口原装部件</a></li>
+                    <li><a href="">安全驾驶培训</a></li>
+                    <li><a href="">车架号查询</a></li>
+                    <li><a href="">车主认证</a></li>
+                </ul>
+            </li>
+            <li class="lis li7">
+                <i><img src="images/nav02.png" alt=""></i>
+                <a href="" class="aa">查找经销商</a></li>
+            <li class="lis li7">
+                <i><img src="images/nav03.png" alt=""></i>
+                <a href="" class="aa">预约试驾</a>
+            </li>
+            <li class="lis lisa li5">
+                <a href="" class="aa">加入我们</a>
+                <ul>
+                    <li><a href="">招聘信息</a></li>
+                    <li><a href="">申请经销商</a></li>
+                </ul>
+            </li>
+            <li class="lis lisa li6">
+                <a href="" class="aa"> </a>
+                <ul>
+                    <li class="shuru"><input type="text" placeholder="请输入你的内容..."></li>
+                    <li class="sousuo"><input type="button" value="搜索"></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div id="boxxiang1">
+    <div class="boxxiang">
+
+        <ul class="left-ul">
+            <li>全境界服务</li>
+            <li>春节出行服务月</li>
+            <li>24小时全路况救援</li>
+            <li>出行管家服务</li>
+            <li>星辰守护服务</li>
+            <li>“汽车三包”政策</li>
+            <li>Mopar®原装进口配件</li>
+            <li>安全驾驶培训</li>
+            <li>车架号查询</li>
+        </ul>
+
+        <div class="right-div">
+            <div style="display: block;" id="w1" class="services-info">
+                <!--<div class="services-img"><img src="images/s1.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s1.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <strong>专业、专属、专心 – Jeep全境界服务</strong><br><br>
+                        选择Jeep，在一辆卓越的SUV之外，更意味着你将享受到业界最SUV的售后服务<br><br>
+                        <strong>专业</strong><br>
+                        •24小时全路况救援：全路况、全原因、全免费等8大项服务内容<br>
+                        •288件专属诊断与维修设备:包含Wi-Tech全球同步诊断设备、4000kg超大吨位举升机等……<br>
+                        •Mopar<sup style="font-size:10px;">®</sup>原装进口配件：1年或2万公里质保<br><br>
+                        <strong>专属</strong><br>
+                        •一对一客户经理：自购车日起，为您配属指定代表贴心服务<br>
+                        •出行管家：36项常规出行检测、50项短途出行检测、68项长途出行检测、65项回程检测，均免费<br>
+                        •3年或80000公里保修（先到为准）<br><br>
+                        <strong>专心</strong><br>
+                        •辰星守候：提前1.5小时提供服务、延后2小时提供服务<br>
+                        •全过程透明诚信<br>
+                        •用车终身全记录
+                        <br><br>
+                    </p>
+                    <!--<p>	SUV行业领军者Jeep<sub style="font-size:8px;">®</sub>，秉承"专业、专属、专心"理念，国内首创专为SUV生活方式打造的售后服务品牌——Jeep<sub style="font-size:8px;">®</sub>全境界服务正式升级亮相。涵盖多项业界唯一的服务项目，为客户提供各种道路救援及尊崇体验服务。与此同时为进一步提升客户满意度，克莱斯勒（中国）将于2013年9月10日起提前实施<a href="services.html?w9" style="color:#F90;">三包政策</a>。
+                    <br/><br/>
+
+                    <strong>"<a href="services.html?w4" style="color:#F90;">24小时全路况救援</a>"</strong>———— 无论您在都市行驶、郊外驰骋、抑或挑战更严苛的路况，一旦车辆出现故障，Jeep<sub style="font-size:8px;">®</sub>都将迅速提供免费救援；即使不是车辆自身原因造成的停驶，比如钥匙丢失、缺乏燃油或交通事故，Jeep<sub style="font-size:8px;">®</sub>也会全力援助。
+
+                    <br/><br/>
+                    <strong>只需一个预约，必将"<a href="services.html?w6" style="color:#F90;">辰星守候</a>"</strong>—— "辰星守候"服务主动延长车主的预约时间，增加服务保养的便利性，令售后保养更高效无忧。无论是加班后保养还是清晨提前维修，Jeep<sub style="font-size:8px;">®</sub>都为您竭力提供专业、专属、专心的服务。<br/><br/>
+                    <strong>"<a href="services.html?w5" style="color:#F90;">出行管家</a>"</strong>——只需与"一对一客户经理"一个电话预约，即可享受"出行管家"项目的定制体验。无需再为路线安排、景点生疏而烦恼，"出行管家"懂您的出行需求，为您提供详尽的信息与旅行贴士。在旅途异乡，车主还将得到沿线各省市途径经销商的关怀。<br/>
+                    "一对一客户经理" ——当每一位消费者成为Jeep<sub style="font-size:8px;">®</sub>车主后，就会有一位专属的客户经理负责与爱车售后相关的服务。
+                    <br/><br/>
+                    <strong>"<a href="services.html?w4" style="color:#F90;">快速保养通道</a>"</strong> ——优化了服务流程、提高保养维修效率，提供更为专业和全面的省时快修服务。
+                    </p>-->
+                </div>
+            </div>
+            <div id="w3" class="services-info">
+                <!--	<div class="services-img"><img src="images/s3.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s3.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <strong>Mopar<sup style="font-size:10px;">®</sup>原装进口配件</strong><br>
+                        克莱斯勒车型原装进口Mopar<sup style="font-size:10px;">®</sup>品牌零件专门为您的爱车打造,确保品质始终如一。<br><br>
+
+                        <strong>克莱斯勒Mopar<sup style="font-size:10px;">®</sup>品牌零件QA:</strong><br>
+
+                        <strong>Q1.什么是Mopar<sup style="font-size:10px;">®</sup>品牌零件？</strong><br>
+                        Mopar<sup style="font-size:10px;">®</sup>品牌是克莱斯勒集团有限责任公司下属的品牌，专门设计生产制造克莱斯勒旗下克莱斯勒、Jeep<sub
+                            style="font-size:10px;">®</sub>、道奇各款车型的零部件。总部在美国。<br><br>
+
+                        <strong>Q2.我为什么要选择Mopar<sup style="font-size:10px;">®</sup>品牌零件？</strong><br>
+                        使用Mopar<sup style="font-size:10px;">®</sup>零件是确保您能享受到克莱斯勒全面服务的前提，包括质量保证，售后服务，道路救援等，让您行车安全无忧。
+                        <br><br>
+
+                        <strong>Q3.何处可以安装或加装正厂的Mopar<sup style="font-size:10px;">®</sup>品牌零件？</strong><br>
+                        克莱斯勒(中国)汽车销售有限公司在全国超过150家授权经销商，在各经销商处均可放心安装或加装正厂的Mopar&lt;<sup style="font-size:10px;">®</sup>零件。
+                        <br><br>
+
+                        <!--strong>Q4.Mopar<sup style="font-size:8px;">®</sup>品牌零件的价格如何？</strong><br/>
+                        克莱斯勒(中国)汽车销售有限公司对经销商采取全国统一零售价，无论您在全国的哪个城市均可享受同样的价格。各经销商不得以任何理由擅自抬高或降低零售价，不得向客户收取正常零售价款以外的费用如运费等其他不合理费用，也请您监督经销商的行为，如有发现经销商违规可致电用户服务热线进行投诉。 <br/><br/-->
+
+                        <strong>Q4.使用Mopar<sup style="font-size:10px;">®</sup>品牌零件的保修期限？</strong><br>
+                        在克莱斯勒(中国)汽车销售有限公司经销商处安装使用的正厂Mopar<sup style="font-size:10px;">®</sup>品牌零件（特殊零件除外）均可享受1年2万公里（先到者为准）的保修服务。
+                    </p>
+
+                </div>
+            </div>
+            <div id="w4" class="services-info">
+                <div class="services-subNav">
+                    <ul id="services-sub">
+                        <li class="sli-act">24小时全路况救援</li>
+                        <li>快速保养通道</li>
+
+                    </ul>
+                </div>
+
+                <div class="services-sub">
+                    <!--<div class="services-img"><img src="images/s4.jpg" width="710" height="356" /></div>-->
+                    <div class="services-subp">
+                        <div><img src="JEEP/images/s4.jpg" height="356" width="710"></div>
+                        <br><br>
+                        <p>
+                            <strong>24小时全路况救援热线：400-650-0118</strong><br><br>
+
+                            •最广救援范围：铺装路面、非铺装路面、越野地形，所有救援车辆能够到达的地点<br>
+                            •最全救援条件：车辆故障、驾驶员失误（蓄电池电压不足、缺乏燃料、钥匙丢失/损坏、扎胎/爆胎）、交通事故等原因造成的车辆不能继续行驶<br>
+                            •服务内容<br>
+                            <!--
+                            Jeep<sub style="font-size:8px;">®</sub>全路况24小时道路救援关注您的需要，让您何时何地都可安心出行，全面提升拥有Jeep<sub style="font-size:8px;">®</sub>的价值。<br/>
+
+                            为了全面解决您的后顾之忧，我们为您的爱车提供3年或80,000公里保养（先到为准），全国近百家授权经销商，为您提供方便快捷的服务。<br/>
+
+                            我们为您提供包括：家中或道路救援服务、出租车服务、法律咨询、医疗咨询等在内的全面救援服务；更有备用车服务、票务酒店服务，保障您的旅途安全无忧。无论您在都市行驶、郊外驰骋、抑或挑战更严苛的路况，一旦车辆出现故障，Jeep<sub style="font-size:8px;">®</sub>都将迅速提供免费救援；即使不是车辆自身原因造成的停驶，比如钥匙丢失、缺乏燃油或交通事故，Jeep<sub style="font-size:8px;">®</sub>也会全力援助。Jeep<sub style="font-size:8px;">®</sub>全境界服务，只有您想不到，没有Jeep<sub style="font-size:8px;">®</sub>覆盖不到。<br/>具体服务内容范围请见Jeep<sub style="font-size:8px;">®</sub>道路救援用户指南。-->
+                            &nbsp;&nbsp;o &nbsp;家中或道路救援服务<br>
+                            &nbsp;&nbsp;o &nbsp;拖车服务<br>
+                            &nbsp;&nbsp;o &nbsp;出租车服务<br>
+                            &nbsp;&nbsp;o &nbsp;法律咨询<br>
+                            &nbsp;&nbsp;o &nbsp;医疗咨询<br>
+                            &nbsp;&nbsp;o &nbsp;带司机备用车服务<br>
+                            &nbsp;&nbsp;o &nbsp;酒店住宿/继续旅程<br>
+                            &nbsp;&nbsp;o &nbsp;维修完毕后车辆交付服务
+                            <br>
+                            <br>
+                            <a href="/downloads/Jeep_Roadside_Assistance_User_Guide.zip" style="color:#FDAD00;"><img
+                                    src="JEEP/images/24button.png"></a>
+                            <!--<a href="/downloads/用户指南.zip" style="color:#FDAD00;"><img src="images/24button.png" /></a>-->
+                        </p>
+                    </div>
+                </div>
+                <div class="services-sub" style="display:none">
+                    <!--<div class="services-img"><img src="images/s2.jpg" width="710" height="356" /></div>-->
+                    <div class="services-subp">
+                        <div><img src="JEEP/images/s2.jpg" height="356" width="710"></div>
+                        <br><br>
+                        <p>
+                            <strong>免费首次保养</strong><br>
+                            当您的座驾达到5000公里行驶里程时，我们为您的爱车提供免费首次保养，包括全面的车辆保养检测以及免费更换机油及机油滤清器。 <br><br>
+
+                            <strong>3年或80,000公里保修（以先到达者为准）</strong><br>
+                            为了全面解决您的后顾之忧，我们为您的爱车提供3年或80,000公里保修（先到为准），全国超过150家授权经销商，为您提供方便快捷的服务。<br><br>
+
+                            <strong>保养计划（新增内容）</strong><br>
+                            为了保障您的爱车经常处于良好的状态，我们为您的爱车设定了常规保养计划，建议您按照该计划到授权经销商处接受服务。 <br><br>
+
+                            <strong>快速保养通道</strong><br>
+                            为了满足您快捷的保养需求，我们为您设立快速保养通道，由客户经理一对一帮您完成最快速的保养服务。<br><br>
+
+                            <strong>透明车间</strong><br>
+                            维修车间透明化，使客户更为方便和充分的了解工作进程和车间维修状况。<br><br>
+
+                            <strong>新旧件展示</strong><br>
+                            提供新配件的展示，和旧件带走服务，最大客户维护客户的利益。<br><br>
+
+
+                            <strong>服务热线：400-6500-118</strong><br>
+                            您在车辆使用过程中有任何疑问，请致电服务热线或咨询当地授权经销商。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="w5" class="services-info">
+                <!--<div class="services-img"><img src="images/s5.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s5.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <!--9月14日Jeep<sub style="font-size:8px;">®</sub>开始为您的"十一"出行提供往返管家服务。<br/>-->
+                        出行管家服务是Jeep<!--<sup style="font-size:8px;">®</sup>-->为满足有出行计划的客户，而制定的长期关怀措施。<br>
+                        只需与"一对一客户经理"一个电话预约，即可享受"出行管家"项目的定制体验。包含洗车、维修、出行建议，旅行异地经销商服务及共逾70项免费车检。无需再为路线安排、景点生疏而烦恼，"出行管家"懂您的出行需求，为您提供详尽的信息与旅行贴士。更值得一提的是，即使在旅途异乡，车主还将得到沿线各省市，途径经销商的关怀。
+                        <br>
+                        <strong>具体服务：</strong><br>
+                        •根据目的地，提供出行路线建议、规划。<br>
+                        •旅行异地经销商服务。<br>
+                        •36项常规检测、50项短途检测、68项长途检测、65项回程检测和四轮动平衡调试均免费。<br>
+                        •出行里程在100公里以上、500公里以下的车主，可享受50项免费短途检测，确保油路、空调、轮胎等功能运行良好，并轻松实现省油低碳出行。<br>
+                        •出行计划500公里以上的车主，更可获得更为精密的长途检测，排查车辆关键部件的异常故障，有效避免意外发生。<br>
+                        •在车主回程后，Jeep<!--<sup style="font-size:8px;">®</sup>-->还贴心提供多达65项的检测，以具体分析车辆出行的运行情况，排除车辆潜在故障。<br>
+                        •针对部分车主的长途行车需求，Jeep<!--<sup style="font-size:8px;">®</sup>-->
+                        "全境界服务"特别增加了更为细致的"四轮动平衡调试"服务，在出行前进行调试平衡，不但能延长轮胎寿命，更提高汽车行驶时的稳定性，避免在高速行驶时因轮胎摆动和跳动，而使车辆失去控制酿成事故。<br>
+                        •往返免费洗车。<br>
+
+
+                    </p>
+
+
+                </div>
+            </div>
+            <div id="w6" class="services-info">
+                <!--<div class="services-img"><img src="images/s6.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s6.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        Jeep<!--<sup style="font-size:8px;">®</sup>-->通过对早间和夜间营业时间的延长，车主可通过Jeep
+                        <!--<sup style="font-size:8px;">®</sup>-->
+                        专属的一对一客户经理来预约享受辰星守候服务，为工作时间内不方便光临4S店的车主提供有效及时的优质服务。<br>
+                        •对于清晨有约的服务，可至少提前与自身正常营业时间1.5个小时为客户服务。<br>
+                        •对于晚间延时，可至少延长至自身正常营业时间的2个小时为客户服务。
+                    </p>
+
+                </div>
+            </div>
+            <div id="w7" class="services-info">
+                <div class="services-subNav">
+                    <ul id="services-sub1">
+                        <li class="sli-act1">春节出行服务月</li>
+                        <!--<li >历史活动回顾</li>-->
+                        <li>金秋"惠"车主</li>
+
+                    </ul>
+                </div>
+
+                <div class="services-sub1">
+                    <div><img src="JEEP/images/s10.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <strong>1月24日至2月24日期间，6重专属好礼，伴您全程安心。</strong><br><br>
+
+                        •到店礼包：免费往返检测、洗车、四轮定位<br>
+                        •工时礼包：保养及一般维修工时8折；更换电瓶、轮胎免工时费 <br>
+                        •消费礼包：检测并维修享零件折扣100元，原厂精品原附件85折 <br>
+                        •预约礼包：预约“辰星守候”、“出行管家”、“快保通道”赠空调消毒及精美钥匙扣<br>
+                        •专享礼包：参加牧马人行车安全专项检查及培训，赠精美车模一部<br>
+                        •冬季礼包：冬季爱车养护知识及冰雪路面驾驶技巧培训
+
+                        <br><br>
+                    </p>
+                    <!--<a href="/service_parts/service_info.html" target="_blank"><img src="images/btn_fullpost.gif" width="85" height="22" /></a>-->
+                </div>
+                <div class="services-sub1" style="display:none;">
+                    <div><img src="JEEP/images/s7.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <!--<strong> Cool暑体验计划</strong><br/>
+                        即日起至9月5日Jeep<sub style="font-size:8px;">®</sub>推出夏季送清凉客户关爱行动，让您清凉安心，畅享一夏！活动期间驾驶爱车到店，即可享受空调系统免费检测（常规20项），并为您的爱车针对夏季安全进行检测，到店消费更可享优惠100元现金优惠！让您安心又舒心！<br/><br/></p>
+                                <a href="/service_parts/service_info.html" target="_blank"><img src="images/btn_fullpost.gif" width="85" height="22" /></a>-->
+                        <strong> "十一"出行管家服务月雀跃启动 金秋"惠"车主</strong><br>
+                        即日起至10月20日，Jeep全境界服务售后品牌，正式推出"十一"出行往返管家服务月活动，为消费者更安全、尽兴的金秋假期出行保驾护航。
+                        活动期间Jeep车主免费坐拥"最SUV"售后服务：36项常规检测、50项短途检测、68项长途检测、65项回程检测和四轮动平衡调试；到店维修保养获工时免费或八折礼遇，更换机油和配件享更低折扣和精美礼品，优惠折扣诚意十足。
+                        <br><br>
+                    </p>
+                </div>
+            </div>
+            <div id="w8" class="services-info">
+                <!--<div class="services-img"><img src="images/s8.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s8.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        本手册中，我们提供了大量的越野使用技巧，其中包括如何应对崎岖的地形，如何穿越溪流，适当的爬坡技术，以及正确的绞盘操作方法。只要遵循基本指导方针并运用常识，大多数人就能够成功的进行越野驾驶。在掌握基本要素之后，所要做的就是不断练习。<br><br>
+                        好了，接下来，就让我们一起体验越野带来的激情和乐趣吧！<br><br>
+                    </p>
+                    <a href="/downloads/Off-road_safety_manual.zip"><img src="JEEP/images/btn_xz.gif" height="22"
+                                                                         width="130"></a>
+                </div>
+            </div>
+            <div id="w9" class="services-info">
+                <!--<div class="services-img"><img src="images/s9.jpg" width="710" height="356" /></div>-->
+                <div class="services-subp">
+                    <div><img src="JEEP/images/s9.jpg" height="356" width="710"></div>
+                    <br><br>
+                    <p>
+                        <strong> "汽车三包"政策</strong><br>
+                        根据国家质检总局发布的《家用汽车产品修理、更换、退货责任规定》，克莱斯勒（中国）汽车销售有限公司现定于2013年9月10日起提前执行国家"汽车三包"政策。
+                        同时，为了满足更多客户需求，克莱斯勒（中国）汽车销售有限公司对 2013年8月1日起所销售的车辆（需要符合国家三包法规内所规定的三包车辆适用范围）同样实行"汽车三包"政策。
+                        <br>
+                        <strong>汽车产品包修期：</strong>36个月或80,000公里（以先达到者为准）<br>
+                        <strong>汽车产品三包有效期：</strong>24个月或50,000公里（以先达到者为准） <br><br>
+                    </p>
+                    <a href="/downloads/Jeep_qichesanbao.zip" target="_blank"><img src="JEEP/images/btn_fullpostxz.gif"></a>
+                </div>
+            </div>
+            <div id="w10" class="services-info">
+                <div id="w10show">
+                    <div class="services-img"><img src="JEEP/images/s11.jpg" height="366" width="710"></div>
+                    <div class="services-subp">
+                        <p style="font-size:14px; padding:50px 0 20px 0; text-align:center">天津港事故质损车</p>
+                        <table style="margin:0 auto" border="0" cellpadding="0" cellspacing="0" width="80%">
+                            <tbody>
+                            <tr>
+                                <td align="center"><strong>车辆识别代码</strong></td>
+                                <td><input id="vinCode2" class="vinCode" placeholder="请输入识别码..." type="text"></td>
+                                <td>
+                                    <div class="jeepBtn" id="vinCodeBtn2"><span>点击查询</span></div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p style="font-size:14px; padding:50px 0 20px 0;text-align:center">
+                            天津港事故期间曾经停放于天津港的新车（如进口全新大切诺基）</p>
+
+
+                        <table style="margin:0 auto" border="0" cellpadding="0" cellspacing="0" width="80%">
+                            <tbody>
+                            <tr>
+                                <td align="center"><strong>车辆识别代码</strong></td>
+                                <td><input id="vinCode" class="vinCode" placeholder="请输入识别码..." type="text"></td>
+                                <td>
+                                    <div class="jeepBtn" id="vinCodeBtn"><span>点击查询</span></div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p style="font-size:14px; padding:50px 0 20px 0;text-align:center">
+                            天津港事故期间曾经停放于天津港的特价车（如进口指南者）</p>
+                        <table style="margin:0 auto" border="0" cellpadding="0" cellspacing="0" width="80%">
+                            <tbody>
+                            <tr>
+                                <td align="center"><strong>车辆识别代码</strong></td>
+                                <td><input id="vinCode3" class="vinCode" placeholder="请输入识别码..." type="text"></td>
+                                <td>
+                                    <div class="jeepBtn" id="vinCodeBtn3"><span>点击查询</span></div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="w10showYes" style="display:none">
+                    <div id="vinhtml">
+                    </div>
+                    <div class="pinzhishu" id="pinzhishu">
+
+                    </div>
+                </div>
+                <div id="w10showNo" style="display:none">
+                    经查询，您的车辆未曾在天津港爆炸期间停放于天津港。<br>感谢您对Jeep的热情与支持！
+
+
+                </div>
+                <div id="w10showYes2" style="display:none">
+                    您所查询车辆已遭受严重的损坏，且CGCSL认为无法通过商业上合理的方式加以修复。<br>
+                    CGCSL禁止其授权经销商销售任何该等剩余车辆。<br>
+                    该等车辆不享有CGCSL或车辆生产厂商提供的质保
+
+                </div>
+                <div id="w10showYes3" style="display:none; font-size:16px;">
+                    该车辆在2015年8月12日天津港集装箱码头发生爆炸时曾停放于天津港区域，可能受到爆炸的影响。<br>
+                    我公司已对该车辆实施了清洗和清洁（外部及内部）、更换发动机空气滤清器及空调滤清器，以及必要的修理（详细信息请见<a
+                        style="color:#F00;">随车的车辆检修单和重要提示</a>）。<br>
+                    该车将在充分告知客户的前提下，按照现状通过拍卖渠道进行销售。<br>
+                    克莱斯勒（中国）会对该车提供以下有限质保：<br>
+                    仅本车辆动力总成零部件享受自质量保修起始日期起十二（12）个月或者二（2）万公里（以二者先到者为准）的有限质保。<br>
+                    并由授权经销商根据该质保条款提供质保服务。<br>
+                    质量保修起始日期为以下两者先到者为准：（1）初购车主的购车日期（以销售发票日期为准）；或（2）给最终客户的重要提示中约定的特定日期。
+
+                </div>
+                <div id="w10showYes4" style="display:none;font-size: 16px;text-align: center; margin-top: 200px;">
+                    您所查询车辆曾在天津港爆炸期间，停放于天津港。
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="footer">
+    <div class="ftMap">
+        <dl>
+            <dt>车型</dt>
+            <dd><a href="#">进口全新大切诺基</a></dd>
+            <dd><a href="#">进口牧马人</a></dd>
+            <dd><a href="#">全新自由光</a></dd>
+            <dd><a href="#">进口自由光</a></dd>
+            <dd><a href="#">全新自由侠</a></dd>
+        </dl>
+        <dl>
+            <dt>金融服务</dt>
+            <dd><a href="#">自由享金融</a></dd>
+            <dd><a href="#">自由享置换</a></dd>
+            <dd><a href="#">金融计算器</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep商城</dt>
+            <dd><a href="#">订车宝</a></dd>
+            <dd><a href="#">预约试驾</a></dd>
+            <dd><a href="#">查询经销商</a></dd>
+            <dd><a href="#">即刻接通经销商</a></dd>
+            <dd><a href="#">车型对比</a></dd>
+            <dd><a href="#">定制我的Jeep</a></dd>
+            <dd><a href="#">下载电子产品手册</a></dd>
+            <dd><a id="ftQaOnline" href="#">在线咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep Life</dt>
+            <dd><a href="#">探享俱乐部</a></dd>
+            <dd><a href="#">品牌介绍</a></dd>
+            <dd><a href="#">新闻资讯</a></dd>
+            <dd><a href="#">最新活动</a></dd>
+        </dl>
+        <dl>
+            <dt class="join" style="margin-top: 0;">加入我们</dt>
+            <dd><a href="#">招聘信息</a></dd>
+            <dd><a href="#">申请经销商</a></dd>
+        </dl>
+        <dl>
+            <dt>车主服务</dt>
+            <dd><a href="#">全境界服务简介</a></dd>
+            <dd><a href="#">24小时全路况救援</a></dd>
+            <dd><a href="#">出行管家服务</a></dd>
+            <dd><a href="#">辰星守候服务</a></dd>
+            <dd><a href="#">“汽车三包”政策</a></dd>
+            <dd><a href="#">Mopar<span class="r">®</span>原装进口配件</a></dd>
+            <dd><a href="#">安全驾驶培训</a></dd>
+            <dd><a href="#">车架号查询</a></dd>
+            <dd><a href="#">车主认证</a></dd>
+        </dl>
+        <dl class="content">
+            <dt>专享热线</dt>
+            <dd class="tel400">400 6500 118</dd>
+            <dd><a href="#"><img src="images/footer01.png">微博</a></dd>
+            <dd><a href="#"><img src="images/footer02.png">微信</a></dd>
+        </dl>
+    </div>
+    <div class="last">
+        <div class="lastBox">
+            <p class="link">
+                <a href="#">Global Site</a> |
+                <a href="#">隐私条款</a> |
+                <a href="#">联系我们</a> |
+                <a href="#">加入我们</a> |
+                <a href="#">网站地图</a> |
+                <a href="#">手机版</a>
+            <p class="p1">网站中所有产品图片及文字说明均有可能变更。克莱斯勒[中国]汽车销售有限公司保留对所描述车型进行更改的权利，<br>
+                并且任何时候都无需承担因以产品改进为目的的设计和[或]市场营销等原因而必须提前通知的义务。<br>
+                沪ICP备09014236号-12
+            </p>
+
+            <div class="logos">
+                <a href="#"><img src="images/footer05.png"></a>
+                <a href="#"><img src="images/footer04.png"></a>
+                <a href="#"><img src="images/footer03.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

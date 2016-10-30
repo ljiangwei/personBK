@@ -1,0 +1,77 @@
+.reKv { width:100%; height:563px; position: relative; }
+.myNewKvbox{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.myNewKvbox li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.myNewKvbox li.kv1{background:url(../reliance/images/kv01.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv01.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv2{background:url(../reliance/images/kv02.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv02.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv3{background:url(../reliance/images/kv03.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv03.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv4{background:url(../reliance/images/kv04.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv04.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv5{background:url(../reliance/images/kv05.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv05.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv6{background:url(../reliance/images/kv06.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv06.jpg*/ no-repeat 50% 0;}
+.myNewKvbox li.kv7{background:url(../reliance/images/kv07.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/kv07.jpg*/ no-repeat 50% 0;}
+
+.reKv .kvT1 { width:307px; top:124px; left:113px; position:absolute; color:#e3ae3f; font-size:56px; 
+	font-family:"汉仪大黑简", sans-serif;  }
+.reKv .kvT2 { width:322px; top:192px; left:115px; position:absolute; color:#fff; font-size:34px;  }
+.reKv .reKvTxtBox { width:100%; height:100px; position:absolute; bottom:118px; background:url(../reliance/images/bg_50.png)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/bg_50.png*/;    }
+.reKv .reKvTxts { margin:13px 0 0 120px; color:#fff; font-size:14px; display:none; }
+.reKv .reKvTxts dt { font-size:18px; margin-bottom:10px; }
+.reKv .reKvTxts dd { width:520px; height:22px; line-height:20px;   float:left;  }
+.reKv .reKvTxts dd.sp { width:600px; }
+
+.reKv .kvBtBox { width:100%; height:118px; position:absolute; bottom:0; background:#fff;  }
+.reKv .kvBtBox ul { padding-top:13px;  }
+.reKv .kvBtBox li { width:74px;  margin-right:94px; float:left; }
+
+.reSq { width:100%; height:550px; background:url(../reliance/images/bg01.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/bg01.jpg*/ no-repeat 50% 0; color:#000; }
+.reSq .t1 {  top:351px; left:635px; position:absolute; font-size:26px; }
+.reSq .t1 sup { font-size:18px;  }
+.reSq .t2 {  top:451px; left:638px; position:absolute; font-size:15px; line-height:20px; color:#4f4f4f;  }
+
+.reBtcs, .re4wd, .reElsd, .reJd  { width:100%; height:550px; color:#2f2f2f; }
+.rightImg { width:63.75%; height:100%; float:left; }
+.leftTxt { width:36.25%; height:100%; float:left; background:#e9e9e9; position: relative; }
+
+.rightTxt { width:36.41%; height:100%; float:left; position:relative; background:#e9e9e9; }
+.leftImg { width:63.59%; height:100%; float:left; }
+
+.leftTxtBox { width:310px;  top:29.64%; left:36.98%; position:absolute; }
+.leftTxtBox .t1 { font-size:24px; }
+.leftTxtBox .line { margin:25px 0; }
+.leftTxtBox .t2 { font-size:15px; line-height:20px; color:#4f4f4f; }
+
+.rightTxtBox { width:300px; top:177px; left:14.88%; position:absolute; }
+.rightTxtBox .t1 { font-size:24px; }
+.rightTxtBox .line { margin:25px 0; }
+.rightTxtBox .t2 { font-size:15px; line-height:20px; color:#4f4f4f; }
+
+.reBtcs .rightImg {  background: url(../reliance/images/se01.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/se01.jpg*/ no-repeat 50% 0; }
+
+.re4wd .leftImg { background: url(../reliance/images/se02.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/se02.jpg*/ no-repeat 50% 0; }
+
+.reElsd .rightImg { background: url(../reliance/images/se03.jpg)/*tpa=http://www.jeep.com.cn/grand_cherokee/reliance/images/se03.jpg*/ no-repeat 50% 0; }
+
+.reTrailR { width:100%; height:134px; background:#fff; text-align: center;  }
+.reTrailR .t1 { font-size:26px; color:#000; padding-top:28px;  }
+.reTrailR .t1 sup { font-size:16px; }
+.reTrailR .t2 { font-size:15px; line-height:20px; color:#585858; margin-top:8px;  }
+
+.reJd .leftImg {  position:relative; }
+.leftImg ul{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.leftImg ul li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.reJd .rightTxtBox { width:268px; top:14.82%; left:14.88%; position:absolute; }
+
+.reJd .box { width:100%; height:188px; display:none;  }
+.reJd .t2 { width:100%; text-align:justify; }
+.reJd .bts { width:100%; }
+.reJd .bts li { float:left; width:77px; margin-right:4px; cursor:pointer;margin-bottom: 28px;  }
+.reJd .bts li img{display: block;margin: 0 auto;}
+
+.playBt { position:absolute; left:50%; top:50%; margin:-42px 0 0 -42px;   }
+.videoBox { width:100%; height:100%; display:none; background:#000; }
+
+
+.lrbox{height: 445px;width: 100%;position: absolute;top: 0;left: 0;}
+.lrbox .left{width: 50%;height: 100%;position: absolute;top: 0;left: 0;}
+.lrbox .left{cursor:url('../reliance/images/left.png'), pointer;}
+.lrbox .right{width: 50%;height: 100%;position: absolute;top: 0;right: 0;}
+.lrbox .right{cursor:url('../reliance/images/right.png'), pointer;}

@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; outline:none; list-style:none; border:0}
+.f-red{ color:#F00}
+body{color:#555; font-size:12px; font-family:CN Hiragino SansGB,Microsoft Yahei,Heiti,sans-serif EN Helvetica,Arial,sans-serif;margin:auto; background-color:#000}
+
+a{text-decoration:none}
+img{border:0; display:block}
+
+.none{display:none}
+.textimg{display:block; text-indent:-999em; overflow:hidden}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+.textcenter{ text-align:center}
+.winBg{ width:100%; position:fixed; z-index:11000; top:0; left:0; height:100%; background:rgba(0,0,0,0.7); display:none}
+
+.headHeight{ height:65px}
+.headHeightact{ height:99px}
+
+
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{clear:both;zoom:1;}
+
+
+.headerDiv{ width:100%; height:65px; background:#292929; position:fixed; z-index:12000}
+.header{ margin:0 auto; width:960px; height:65px; position:relative; z-index:999;}
+.header .logo{ position:absolute; left:10px; top:50%; width:92px; height:32px; margin-top:-16px}
+.header .logo a{ display:block; width:100%; outline:none;}
+.topmenu{ position:absolute; left:114px; top:0; height:65px; background:#0c0c0c;}
+.topmenu li{ float:left; display:inline-block; width:87px; height:65px;}
+.topmenu li a.menu_item{ display:block; width:86px; margin-left:1px;line-height:65px; text-align:center; color:#ffffff; font-size:14px; font-weight:bold; outline:none;background:#292929; }
+.topmenu li a.menu_item:hover,.topmenu li a.menu_item_on{ background:#fff; text-decoration:none; color:#666;border-bottom:3px #ffb302 solid;line-height:62px;}
+.menu_item_on{background:#fff; text-decoration:none; color:#666;}
+
+.submenu_common{ display:none; padding:20px 0; width:200px; background:#fff; font-size:14px; margin-left:-40px}
+
+.submenu_common li{ width:100%; height:30px; line-height:30px;}
+.submenu_common li a{ display:block; width:100%; line-height:30px; text-indent:15px; color:#666;}
+.submenu_common li a:hover{ color:#ffb302; text-decoration:none;}
+#topmenu .submenu_vehicles{ display:none; background:#252525; position:relative; margin-left:-197px}
+#topmenu .submenu_vehicles ul.submenu_menu{ float:left;  width:283px;height:480px;  color:#666;  background:#fff; border-right:1px solid #ccc;}
+.submenu_vehiclesbj{ background: url(/images/header/vehicle-sprite1.png) no-repeat right top; position: absolute; top:0px; left:120px;z-index:200; height:403px; width:149px;}
+#topmenu .submenu_vehicles ul.submenu_menu li{ width:100%; height:66px; border-bottom:#ccc solid 1px; line-height:66px; position:relative; font-size:14px; font-weight:600}
+#topmenu ul.submenu_menu a{ display:block; width:275px; height:66px; line-height:66px;color:#666; text-indent:29px; background: url(/images/header/vehicle-sprite1.png) no-repeat 142px -325px; position:relative}
+#topmenu ul.submenu_menu #grand{ background-position:right 0%;}
+#topmenu ul.submenu_menu #wrangler{background-position:right 20%;}
+#topmenu ul.submenu_menu #cherokee{background-position:right 40%;}
+#topmenu ul.submenu_menu #compass{background-position:right 59%;}
+#topmenu ul.submenu_menu #patriot{background-position:right 80%;}
+#topmenu ul.submenu_menu #preheat{background-position:right 98%;}
+#topmenu ul.submenu_menu #newk4{background-position:right 40%;}
+#topmenu ul.submenu_menu #grand:hover{ background-position:right 0%;}
+#topmenu ul.submenu_menu #wrangler:hover{background-position:right 20%;}
+#topmenu ul.submenu_menu #cherokee:hover{background-position:right 40%;}
+#topmenu ul.submenu_menu #newk4:hover{background-position:right 40%;}
+#topmenu ul.submenu_menu #compass:hover{background-position:right 59%;}
+#topmenu ul.submenu_menu #patriot:hover{background-position:right 80%;}
+#topmenu ul.submenu_menu #preheat:hover{background-position:right 98%;}
+
+#topmenu .submenu_item{ float:left; width:690px; height:403px; }
+
+.headact{ height:50px; overflow:hidden}
+.headact .header{ height:50px;}
+.subnav{ height:34px; background:#000; position:fixed; top:65px; left:0; width:100%; z-index:9000}
+
+.grand_nav{ height:34px; width:960px; margin:0 auto; position:relative; z-index:2}
+.subact{top:50px;z-index:12001;}
+.subact .grand_nav{ height:50px; overflow:hidden; position:fixed; top:0; left:50%; margin:0 0 0 -480px;  }
+.nav_title{
+	float:left;
+	display:inline-block;
+	line-height:34px;
+	background:#000 url(/images/subNav.gif) left no-repeat;
+	width:148px;
+	margin-left:115px;
+	padding-left:15px;
+	font-size:14px;
+	}
+.subact .nav_title{background:#000 url(/images/subNavact.gif) left no-repeat;line-height:50px;}
+a.nav_title:link{ color:#000}
+a.nav_title:visited{ color:#000}
+a.nav_title:hover{ color:#000}
+.nav_title1 {
+	padding-left:5px;
+    height: 32px;
+    width: 44px;
+	
+}
+.nav_title2 {
+	padding-left:3px;
+    height: 32px;
+    width: 40px;
+	
+}
+.nav_title3 {
+    height: 32px;
+}
+
+.nav_txt{ float:left; color:#fff; width:542px; line-height:34px; background:#000;}
+.subact .nav_txt{ line-height:50px;}
+.nav_txt li{ font-size:12px;float:left;padding:0px 15px; position:relative}
+.nav_txt li a{ color:#fff;}
+.nav_txt li a:hover{ color:#fdad00;}
+.nav_txt li .navcolor{ color:#fdad00;}
+.nav_more_info{width:140px; padding:5px 8px; position: absolute;  overflow: hidden; background:#000; display:none; left:0}
+.nav_more_info ul{ width:100%;}
+.nav_more_info ul li{ width:100%; line-height:16px; padding:5px 0;}
+.nav_more_info ul li a{ display:block; width:132px; height:100%; }
+
+.txxl_nav{ width:900px; padding:5px 0; position: absolute; left:0px;  overflow: hidden; background:#000; display:none; z-index:100000;}
+.txxl_nav ul{ width:180px; float:left;}
+.txxl_nav ul h3{ font-size:12px; background:#ffb302; font-weight:normal; line-height:25px; border-right:1px #000 solid; height:25px; text-align:center; color:#000; display:block;}
+.txxl_nav ul h3 a{ color:#000;}
+.txxl_nav ul h3 a:hover{ color:#000;}
+.txxl_nav ul li{ width:100%; line-height:16px; padding:5px 0;}
+.txxl_nav ul li a{ padding-left:8px; display:block; width:132px; height:100%;}
+
+.thnavBox{ width:410px; margin-left:-205px; left:50%; top:0; position:absolute; z-index:1}
+.thnavBox li{ float:left; line-height:34px; padding:0 10px; text-align:center}
+.thnavBox li a:link{ color:#fff; text-decoration:none}
+.thnavBox li a:visited{ color:#fff;text-decoration:none}
+.thnavBox li a:hover{ color:#fff;text-decoration:underline}
+.thnavBox .act a:link{ color:#F90; text-decoration:none}
+
+.submenu_nav{width:684px; height:480px;position:relative;  z-index:-1; left:272px; display:none}
+#submenu_cherokee{  background: url(/images/header/cherokee.jpg) no-repeat right top #fff;  }
+#submenu_compass{  background: url(/images/header/compass.jpg) no-repeat right top #fff; }
+#submenu_patriot{  background: url(/images/header/patriot.jpg) no-repeat right top #fff; }
+#submenu_grand_cherokee{  background: url(/images/header/grand_cherokee.jpg) no-repeat right top #fff; }
+#submenu_renegade{  background: url(/images/header/renegade.jpg) no-repeat right top #fff; }
+#submenu_wrangler{  background: url(/images/header/wrangler_unlimited.jpg) no-repeat right top #fff; }
+#submenu_srt{  background: url(/images/header/srt.jpg) no-repeat right top #fff; }
+#submenu_newk4{background: url(/images/header/newcherokee.jpg) no-repeat right top #fff; }
+.cherokee_nav{
+ width:205px;
+ background:#f5f5f5;
+ 
+ border-top:1px solid #dfdfdf;
+ border-left:1px solid #dfdfdf;
+ position:absolute;
+ left: 444px;
+ top: 185px;
+}
+.cherokee_nav li{ height:30px;width:204px; line-height:30px; border-bottom:1px solid #dfdfdf; }
+.cherokee_nav li a{ color:#666;padding-left:20px; text-decoration:none; display:block;}
+.cherokee_nav li a:hover{ color:#666; display:block;  background:#ffb302;}
+.menus_more{ position:absolute; right:25px; bottom:0; display:block; width:95px; height:24px; background:url(/images/header/menu_more.png) 0 0 no-repeat; text-indent:-9999em;}
+#navpic{ width:265px; height:150px; display:block; left:230px; position:absolute;}
+#navright{}
+
+
+
+.top_sj{ position:absolute; right:0px; top:0;}
+.top_kf{ position:absolute; right:70px; top:0;}
+
+#top_sj{ width:70px; height:65px; background:url(/images/header/top_sj.png)  no-repeat; }
+#top_kf{ width:70px; height:65px; background:url(/images/header/top_kf.png)  no-repeat; }
+
+.headact #top_sj{ width:70px; height:50px; background:url(/images/header/top_sj2.png)  no-repeat; }
+.headact #top_kf{ width:70px; height:50px; background:url(/images/header/top_kf2.png)  no-repeat; }
+
+#top_subnav{ position:absolute; right:77px; top:6px; width:250px; height:14px; line-height:14px; text-align:right;}
+#top_subnav a{ float:right; margin-left:8px; color:#a3a3a3; height:14px; font-size:12px; background:url(/images/menu_bg_right.gif) right center no-repeat; padding-right:8px;  -webkit-text-size-adjust:none;}
+#top_subnav a:hover{ color:#fdad00;}
+.top-jxszm{ position:absolute; left:651px; top:35px;}
+.top-jxszm a{ color:#c4890a; background:url(/images/menu_bg_right2.gif) right center no-repeat; padding-right:8px;}
+.headCarTit{ font-size:24px; text-align:center; width:360px; color:#000; position:absolute; bottom:125px; left:45px}
+.headCarInfo{ width:380px; height:40px; line-height:20px; position:absolute; bottom:50px; left:40px}
+.headCarInfo p{ float:left; }
+.headCarInfo p:first-of-type{ border-right:1px #ccc solid;width:168px; padding-left:10px}
+.headCarInfo p:last-child{ background:url(../images/header/youhao.gif) left no-repeat; margin-left:40px; padding-left:30px; width:100px}
+.headCarInfo p span{ font-size:20px; color:#000}
+.cherokee1_nav{ position:absolute; right:45px;  bottom:60px; width:200px;}
+.cherokee1_nav li{ height:26px; width:200px; line-height:26px;
+	background-color: #ffbe66;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	margin-top:5px}
+.cherokee1_nav li:nth-child(2){ margin-top:30px}
+.cherokee1_nav li a{ display:block;height:26px; width:200px;}
+.cherokee1_nav li a:hover{
+	background-color: #ff8600;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	}
+.cherokee1_nav li a span{ background: transparent url("/images/btnBg.png") no-repeat scroll 100% 50%;
+    color: #000;
+	width:150px;
+	display:block;
+    padding: 0 20px 0 10px;
+	text-shadow: 1px 1px 1px #fff;}
+.jt{display:none;background: url(/images/header/jtbj.png) no-repeat left top; width:305px; height:66px; position:absolute;}
+
+
+
+#search{ background:url(/images/header/topbg_search.gif)  right no-repeat; border:1px #ccc solid;    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; width:160px; margin:0 auto; height:30px}
+#search input{line-height:30px; border:0; background:0}
+#search input#q{color:#919191; float:left; width:120px}
+#search input#search_go{float:left; cursor:pointer; display:block; text-indent:-999em; overflow:hidden; width:34px; border:0; background:none}
+
+
+#footer{clear:both; background:url(../images/footer_bg.gif) repeat-x left bottom}
+#footer_info{width:690px; margin:auto; padding-left:260px; height:108px; padding-top:38px; overflow:hidden; background:url(../images/footer_brands.gif) no-repeat 215px 20px}
+#footer_info ul{margin-bottom:55px; display:inline-block; color:#888; overflow:hidden}
+#footer_info li a{display:block; float:left; line-height:15px; color:#a8a8a8}
+#footer_info p{clear:both; margin-left:-15px}
+#footer_info p a{float:left; margin-right:45px}
+#footer_info a.dodge{width:90px; height:25px}
+#footer_info a.chrysler{width:110px; height:30px}
+#footer_info a.jeep{width:50px; height:28px}
+#statement{color:#696969; width:950px; margin:auto; height:95px; padding-top:15px; text-align:center}
+
+#stopDiv{  background:url(../images/stopDiv.jpg) no-repeat; width:125px; height:38px; line-height:38px; text-align:center; display:none}
+
+.footing{ background:#000 url(/images/footer/bottompic_03.jpg) repeat-x; height:500px; padding:1px/*margin-top:30px;*/}
+.footing_x{ background:url(/images/footer/bottombj_03.jpg) no-repeat top center; height:2px;}
+.footing_contact{ width:975px; margin:auto; padding-top:40px;}
+.fooring_nav{ width:154px; padding-left:36px; float:left; background:url(/images/footer/bottompic_06.jpg) repeat-y  top right;  color:#747474; font-size:12px; line-height:18px;}
+.fooring_nav h1{ font-size:14px; color:#fff;}
+.fooring_nav a{ color:#747474; }
+.fooring_nav a:hover{ color:#F90;}
+.copyright{ clear:both; padding-top:45px;}
+.rxdh{ border-bottom:1px solid #353535; height:40px;}
+.rcdh_pic{ float:left;}
+.fooring_txt{ color:#fff; font-size:12px; font-family:"榛戜綋"; font-weight:bold;}
+.fooring_txt div{ float:left;}
+.fooring_txt div a{ color:#fff;}
+.fooring_logo{ float:right;}
+.fooring_logo li{ float:left;}
+.indexSubnav{ width:960px; margin:0 auto 20px}
+.indexSubnav a{ display:block; width:137px; height:45px; line-height:45px; text-align:center; float:left; font-size:14px}
+.indexSubnav a:link{ color:#fff; text-decoration:none}
+.indexSubnav a:visited{ color:#fff; text-decoration:none}
+.indexSubnav a:hover{ color:#f90; text-decoration:none}
+
+.share{ float:right; width:117px; height:17px; color:#555;}
+.share ul{ width:120px; height:17px;}
+.share ul li{ float:left; display:inline-block; width:20px; height:17px; margin-left:2px;}
+.share ul li a{ display:block; width:92%; height:100%; outline:none; background:url(/images/footer/share.png) no-repeat;}
+.share ul li.share-qq a{ background-position:0 0; }
+.share ul li.share-sina a{ background-position:-19px 0; }
+.share ul li.share-renren a{ background-position:-37px 0; }
+.share ul li.share-douban a{ background-position:-55px 0; }
+.share ul li.share-weixing a{ background-position:-73px 0; }
+.share ul li.share-qq a:hover{ background-position:0 -17px; }
+.share ul li.share-sina a:hover{ background-position:-19px -17px; }
+.share ul li.share-renren a:hover{ background-position:-37px -17px; }
+.share ul li.share-douban a:hover{ background-position:-55px -17px; }
+.share ul li.share-weixing a:hover{ background-position:-73px -17px; }
+
+
+.serviceTit { font-size:32px; text-align:center; height:100px; line-height:100px; background:#fff; font-weight:normal}
+.serviceCon {background:#f4f4f4 url(/images/dealerBg.gif) top repeat-x; margin:0 auto; padding:1px}
+.serviceBox { width:960px; margin:34px auto 0}
+.topmenu .headRightBox{ width:117px; padding-top:10px; background:#292929; height:55px; margin-left:1px;}
+.topmenu .headRightBox .headRightBoxa{ display:block; text-align:right; line-height:20px; background:url(../images/header/arr.png) 100% 60% no-repeat; padding-right:10px;color:#fff}
+.topmenu .headRightBox .headRightBoxb{ display:block; height:32px; line-height:32px; text-align:right; font-weight:normal; width:auto; font-size:12px; background:url(../images/header/arr.png) 100% 55% no-repeat; padding-right:10px;}
+.topmenu .headRightBox .menutab .menu_item_on{ background:#fff; text-decoration:none; color:#666;border-bottom:3px #ffb302 solid; height:32px; line-height:32px;}
+
+.topmenu .headRightBox a:hover{ text-decoration:underline}
+.topmenu .headSearchBox{ width:39px;}
+.topmenu .headSearchBox a.menu_item{ width:37px; height:63px; padding:1px; background:url(../images/header/search_1.gif)}
+.topmenu .headSearchBox a.menu_item:hover{ background:url(../images/header/search_2.gif)}
+
+.jeepBtn{
+	display:block;
+ 	background-color: #ffc603;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9700), to(#ff8700)); /* Chrome, Safari 4+ */
+    background-image: -webkit-linear-gradient(top, #ff9700, #ff8700); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+    background-image:    -moz-linear-gradient(top, #ff9700, #ff8700); /* Firefox 3.6-15 */
+    background-image:      -o-linear-gradient(top, #ff9700, #ff8700); /* Opera 11.10-12.00 */
+    background-image:         linear-gradient(to bottom, #ff9700, #ff8700);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	cursor:pointer;
+
+}
+.jeepBtn span{
+	background: transparent url("/images/btnBg.png") no-repeat scroll 100% 80%;
+    color: #2c2c2c;
+    padding: 0 20px 0 30px;
+	text-shadow: 1px 1px 1px #fff;
+	}
+.kv960,.gs959{ width:958px; margin:0 auto; position:relative; padding:1px}
+
+.carTit{ position:relative}
+.carTit .carTit-icon1{ width:42px; height:42px; position:absolute; background:url(../images/titleicon.png);}
+.carTit .carTit-icon2{ width:42px; height:42px; position:absolute; background:url(../images/titleicon.png); background-position:-42px 0}
+.carTit .carTit-icon3{ width:42px; height:42px; position:absolute; background:url(../images/titleicon.png); background-position:-84px 0}
+
+.flaPage{position: fixed; right:0; margin-right:20px; margin-top: 150px; z-index:5}
+.winBgK4{ width:100%; position:fixed; z-index:18000; top:0; left:0; height:100%; background:rgba(0,0,0,0.7); display:none}
+
+/******表单提交按钮*******/
+#jeepsubmitbtn{ position:relative;}
+#jeepsubmitbtn .jeepBtn{ cursor:pointer}
+#stopDiv{ position:absolute; width:100%; left:0; top:0; height:100%; display:none; background:#cdcdcd; border-radius:3px; line-height:32px}/**等待5秒按钮*/
+/*******页面底部********/
+.pageBottom{width:923px; margin:0 auto; padding-bottom:50px}
+.pageBottom img{ margin:0 auto; }
+/*******亚东新加  用与车型内页标题居中********/
+.con00 img{ margin:0 auto;}

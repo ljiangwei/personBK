@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+body,div,ul,span,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#boxxiang1{
+    width: 100%;
+    height: 100%;
+    background-color: #3c3c3c;
+    /*z-index: 100;*/
+    /*position: relative;*/
+}
+.boxxiang{
+    width: 960px;
+    height: 1100px;
+    margin: 0 auto;
+    background-color: #555555;
+    padding-top: 10px;
+}
+.boxxiang .left-ul{
+    width: 177px;
+    float: left;
+    border: 10px solid #747474;
+    background-color: #a3a3a3;
+}
+
+.boxxiang .left-ul li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #CDCDCD;
+    text-indent: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.right-div{
+    width: 750px;
+    float: right;
+    margin-left: 10px;
+}
+.right-div #w3,#w4,#w5,#w6,#w7,#w8,#w9,#w10{
+    display: none;
+}
+.right-div p{
+    line-height: 26px;
+    color: #cccccc;
+}
+.right-div p strong{
+    font-size: 13px;
+}
+#services-sub li{
+    width: 154px;
+    height: 30px;
+    background-color: white;
+    /*display: block;*/
+    float: left;
+   margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#services-sub .sli-act{
+    background-color: #ff9700;
+    color: white;
+}
+#services-sub1 li{
+    width: 154px;
+    height: 30px;
+    background-color: white;
+    /*display: block;*/
+    float: left;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#services-sub1 .sli-act1{
+    background-color: #ff9700;
+    color: white;
+}
+
+#w10 .jeepBtn span{
+    display: inline-block;
+    width: 154px;
+    height: 30px;
+    background-color: #ff9700;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    height: 460px;
+    background-color: #313131;
+}
+.footer .ftMap {
+    width: 1032px;
+    height: 409px;
+    margin: 0 auto;
+    /*padding-top: 80px;*/
+}
+.footer .ftMap dl {
+    float: left;
+    width: 135px;
+    margin-top: 40px;
+}
+.footer .ftMap dl dt {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer .ftMap dl dd {
+    margin-bottom: 16px;
+}
+.footer .ftMap dl dd a {
+    color: #a7a7a7;
+    font-size: 12px;
+}
+.footer .ftMap dl dd a:hover {
+    color: #FDC33E;
+}
+.footer .ftMap .content {
+    float: right;
+    width: 156px;
+}
+.ftMap .tel400 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b9b9b9;
+    padding-bottom: 16px;
+}
+.footer .ftMap .content img {
+    margin-right: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+}
+.last {
+    height: 229px;
+    background-color: #191919;
+}
+.last .lastBox {
+    width: 1032px;
+    margin: 0 auto;
+    position: relative;
+    top: -1px;
+}
+.last .lastBox .link {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.last .lastBox .link a {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.last .lastBox .p1 {
+    font-size: 12px;
+    color: #555555;
+    margin-top: 15px;
+    line-height: 22px;
+}
+.last .lastBox .logos {
+    width: 272px;
+    height: 21px;
+    position: absolute;
+    top: 24px;
+    right: 0;
+}

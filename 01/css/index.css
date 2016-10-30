@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.wrap .public {
+    float: left;
+    /*margin-right: 8px;*/
+    cursor: pointer;
+    width: 338px;
+}
+.wrap .div4 {
+    /*float: right;*/
+    /*margin-right: 0;*/
+}
+.wrap{
+    position: relative;
+    height: 245px;
+    width: 1349px;
+    overflow: hidden;
+}
+#ad{
+    width: 1349px;
+    height: 245px;
+    overflow: hidden;
+}
+#imgs0{
+    width: 4000px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.wrap #arr3{
+    display: none;
+}
+#arr3 span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 30%;
+    /*margin-top: 50px;*/
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+#arr3 #right3 {
+    right: 5px;
+    left: auto;
+}
+.main {
+    height: 792px;
+    background: url("../images/campaign_bg01.jpg") repeat;
+}
+.main .main-logo {
+    text-align: center;
+
+}
+.main .visited {
+    padding-top: 55px;
+}
+.main .change {
+    padding-top: 20px;
+}
+.main .activity {
+    width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+}
+.main .activity ul li {
+    float: left;
+    height: 250px;
+}
+.user .userBox li {
+    float: left;
+}
+.user {
+    height: 83px;
+    padding-top: 19px;
+    background: #fff;
+    margin-left: 150px;
+}
+.footer {
+    height: 460px;
+    background-color: #313131;
+}
+.footer .ftMap {
+    width: 1032px;
+    height: 409px;
+    margin: 0 auto;
+    /*padding-top: 80px;*/
+}
+.footer .ftMap dl {
+    float: left;
+    width: 135px;
+    margin-top: 40px;
+}
+.footer .ftMap dl dt {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer .ftMap dl dd {
+    margin-bottom: 16px;
+}
+.footer .ftMap dl dd a {
+    color: #a7a7a7;
+    font-size: 12px;
+}
+.footer .ftMap dl dd a:hover {
+    color: #FDC33E;
+}
+.footer .ftMap .content {
+    float: right;
+    width: 156px;
+}
+.ftMap .tel400 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b9b9b9;
+    padding-bottom: 16px;
+}
+.footer .ftMap .content img {
+    margin-right: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+}
+.last {
+    height: 229px;
+    background-color: #191919;
+}
+.last .lastBox {
+    width: 1032px;
+    margin: 0 auto;
+    position: relative;
+    top: -1px;
+}
+.last .lastBox .link {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.last .lastBox .link a {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.last .lastBox .p1 {
+    font-size: 12px;
+    color: #555555;
+    margin-top: 15px;
+    line-height: 22px;
+}
+.last .lastBox .logos {
+    width: 272px;
+    height: 21px;
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+
+
+
+
